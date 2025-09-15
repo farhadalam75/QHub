@@ -1,6 +1,8 @@
-gitlone https://github.com/farhadalam75/QHub.git
 
 # QHub
+
+
+git clone https://github.com/farhadalam75/QHub.git
 
 📚 Arabic & Qur’an Learning Hub
 
