@@ -1,390 +1,541 @@
-<<<<<<< HEAD
-│   │   │   ├── Verbs/
-│   │   │   │   ├── Images/
-│   │   │   │   └── Short pdf/
-│   │   │   │       ├── 55 Verb of the Qur'an.pdf
-│   │   │   │       ├── Arabic Verb And Noun Conjugation filln And Save Forms/
-│   │   │   │       ├── Arabic Verb Chart enhanced layout.odt
-│   │   │   │       ├── Arabic Verb Chart enhanced layout.pdf
-│   │   │   │       ├── Arabic Verbs Made Easy Pdfs/
-│   │   │   │       ├── Arabic Verbs and Essentials of Grammar 2nd Ed.pdf
-│   │   │   │       ├── Arabic conjugation.pdf
-│   │   │   │       ├── Past Tense.pdf
-│   │   │   │       ├── Present Tense.pdf
-│   │   │   │       ├── basic arabic verb conjugation chart.pdf
-│   │   │   │       └── en_understand_arabic_in_12_coloured_tables.pdf
+# 📚 QHub - Arabic & Qur'an Learning Hub
 
-# QHub
+<div align="center">
 
-## Description
-A centralized system to manage Arabic learning and Qur’an memorization projects, including interactive tools, organized resources, and exercises to help learners track progress and improve.
+[![GitHub stars](https://img.shields.io/github/stars/farhadalam75/QHub?style=social)](https://github.com/farhadalam75/QHub/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/farhadalam75/QHub?style=social)](https://github.com/farhadalam75/QHub/network)
+[![GitHub issues](https://img.shields.io/github/issues/farhadalam75/QHub)](https://github.com/farhadalam75/QHub/issues)
+
+**🌟 A centralized system to manage Arabic learning and Qur'an memorization projects**
+
+*Including interactive tools, organized resources, and exercises to help learners track progress and improve*
+
+</div>
 
 ---
 
-## Folder Structure
-
-```
-QHub/
-├── Arabic/
-│   ├── Books/
-│   │   ├── Bangla books/
-│   │   ├── Dr V. Abdur Rahim Madinah Arabic Reader/
-│   │   ├── Madina Book/
-│   │   └── حي على العربية - NQA/
-│   ├── Courses/
-│   │   ├── Arabic101/
-│   │   └── Islamic Education/
-│   ├── Grammar/
-│   │   ├── Nahw/
-│   │   │   ├── nahw-let-us-count-in-arabic-and-get-a-headache.pdf
-│   │   │   ├── nahw-methods-of-reflection-for-the-muzaray-verb.pdf
-│   │   │   └── nahw-the-anatomy-of-a-sentence-part-1.pdf
-│   │   ├── Verbs/
-│   │   │   ├── Images/
-│   │   │   │   ├── Sound measure I .png
-│   │   │   │   ├── Verb-conjugation-tables-1.png
-│   │   │   │   ├── Verb-root-letters-and-forms-1280x640.jpg
-│   │   │   │   ├── f1-table-double-root-letters-strong.png
-│   │   │   │   ├── f1-table-hamza.png
-│   │   │   │   ├── f1-table-strong-root-letters.png
-│   │   │   │   ├── f1-table-two-weak-letters-waw-and-yaa.png
-│   │   │   │   ├── f1-table-weak-letters-waw.png
-│   │   │   │   ├── f1-table-weak-letters-yaa.png
-│   │   │   │   ├── f3-table-MAIN.png
-│   │   │   │   └── verbchart.jpg
-│   │   │   └── Short pdf/
-│   │   │       ├── 55 Verb of the Qur'an.pdf
-│   │   │       ├── Arabic Verb And Noun Conjugation filln And Save Forms/
-│   │   │       ├── Arabic Verb Chart enhanced layout.odt
-│   │   │       ├── Arabic Verb Chart enhanced layout.pdf
-│   │   │       ├── Arabic Verbs Made Easy Pdfs/
-│   │   │       ├── Arabic Verbs and Essentials of Grammar 2nd Ed.pdf
-│   │   │       ├── Arabic conjugation.pdf
-│   │   │       ├── Past Tense.pdf
-│   │   │       ├── Present Tense.pdf
-│   │   │       ├── basic arabic verb conjugation chart.pdf
-│   │   │       └── en_understand_arabic_in_12_coloured_tables.pdf
-│   │   └── আধুনিক আরবি ব্যাকরন [boimate.com].pdf
-│   └── Short pdf/
-│       └── lets play 20.pdf
-├── Quran/
-│   ├── Books/
-│   │   ├── At a glance - summary of the 30 Juz of the blessed Quran.pdf
-│   │   ├── The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf
-│   │   └── quran-english-translation-mufti-taqi-usmani.pdf
-│   ├── Memorization/
-│   │   ├── Dua/
-│   │   │   └── O Allah! Make the Quran the spring of our hearts.png
-│   │   ├── Images/
-│   │   ├── Memorized Verses.txt
-│   │   └── Screenshots/
-│   ├── Short pdf/
-│   │   ├── 01-Quraan-e-Kareem-Arabic.pdf
-│   │   ├── 04-PART-1-Quran-Words.pdf
-│   │   ├── Daily-Recitations.pdf
-│   │   └── SuratMulkOnePageHiRes.pdf
-│   └── Tajweed/
-│       ├── 02-Tajweed-Rules-in-details.pdf
-│       ├── 05-Tajweed-Made-Easy-English.pdf
-│       ├── Advanced-Tajweed-Book.pdf
-│       ├── students-guide-to-tajweed-rules-.noha-assersy.pdf
-│       └── tajweed-_2-page-guide-_learning-workhsheet2.pdf
-├── Dua/
-│   ├── Allahumma-Rabba-Hadhih.webp
-│   ├── Essential_Duas.pdf
-│   └── Supplication-Eng-Urdu.pdf
-├── Hadith/
-│   ├── 110_hadith_qudsi.pdf
-│   ├── 30hadithschildren.pdf
-│   ├── Memorization/
-│   │   ├── Images/
-│   │   ├── Pdfs/
-│   │   └── Screenshots/
-│   │       └── None of you will have faith till he loves me more than his father, his children and all mankind.png
-│   └── the_divine_hadiths.pdf
-├── Others/
-│   ├── Books/
-│   │   ├── Board books/
-│   │   │   ├── Ibtadaie Addrusul Arabiah Class 5 CP.pdf
-│   │   │   ├── Ibtadaie Addurusul Arabiah Class 3.pdf
-│   │   │   ├── Ibtadaie Addurusul Arabiah Class 4 CP.pdf
-│   │   │   ├── Kawaidul Lugatil Arabiah 6.pdf
-│   │   │   ├── Kawaidul Lugatil Arabiah 7.pdf
-│   │   │   ├── Qawaid 8.pdf
-│   │   │   ├── Qawaid 9-10.pdf
-│   │   │   ├── ইসলাম শিক্ষা Class 6.pdf
-│   │   │   ├── ইসলাম শিক্ষা Class 7.pdf
-│   │   │   ├── ইসলাম শিক্ষা Class 8.pdf
-│   │   │   └── ইসলাম শিক্ষা Class 9-10.pdf
-│   │   ├── Ilm/
-│   │   │   ├── Al Hadi ila Srf.pdf
-│   │   │   ├── Esho Arbi Shikhi.pdf
-│   │   │   ├── Esho Nahu Shikhi.pdf
-│   │   │   ├── Esho Quran Shikhi 01.pdf
-│   │   │   ├── Esho Quran Shikhi 02.pdf
-│   │   │   └── Esho Srf Shikhi.pdf
-│   │   ├── Mukto_Bateser_Khoje.pdf
-│   │   ├── Quran Salat Onudhabon.pdf
-│   │   ├── fiqh_alsunnah_hajj_and_umrah.pdf
-│   │   ├── hajj_3d.pdf
-│   │   ├── six_fundamentals_or_qualities.pdf
-│   │   ├── umrah.pdf
-│   │   ├── virtues_of_hajj.pdf
-│   │   ├── আকাশের_ওপারে_আকাশ_লস্ট_মডেস্টি_.pdf
-│   │   ├── আল কুরানের বিষয় অভিধান___আসাদ বিন হাফিয.pdf
-│   │   ├── আল_ওয়ালা_ওয়াল_বারা_শাঈখ_আবু_হাফস_আশ_শামী_,_আনাস_মাহদী_নাশওয়ান_.pdf
-│   │   ├── ইসলাম রাস্ট্র ও পরিচালনার মূলনীতি.pdf
-│   │   ├── ইসলামে দাস-দাসী ব্যবস্থা ডা. শামসুল আরেফীন.pdf
-│   │   ├── উম্মাহর ঐক্য পথ ও পন্থা – মাওলানা মুহাম্মদ আব্দুল মালেক.pdf
-│   │   ├── এক নজরে হজ.pdf
-│   │   ├── এখন_যৌবন_যার_মাওলানা_যুলফিকার_আহমদ_নকশবন্দী_হাফি_.pdf
-│   │   ├── কন্যাসন্তান_প্রতিপালনে_৭০০_টিপস_ড_সুলাইমান_আস_সুকাইর.pdf
-│   │   ├── কালেমা তাইয়েবাঃ একটি জীবন আদর্শের দাওয়াত – মুহাম্মদ আজিজুর রহমান খান.pdf
-│   │   ├── কুরআন_পড়ুন_ড_আবদুল_আযীয_আবদুর_রহীম.pdf
-│   │   ├── কুরআনের_শব্দাবলি_লেভেল_১.pdf
-│   │   ├── কুরআনের_শব্দাবলি_লেভেল_২.pdf
-│   │   ├── চিন্তাপরাধ_আসিফ_আদনান_.pdf
-│   │   ├── প্রেমময় দাম্পত্য জীবন (নিয়ম, কৌশল, পরামর্শ) -উসতাজ হাসসান শামসি পাশা.pdf
-│   │   ├── মাওলানা_সাদের_ত্রুটি_বিচ্যুতি_সিরিজ_১০০২_পৃষ্ঠা.pdf
-│   │   ├── মুসলিম_অমুসলিম_সম্পর্ক_সীমারেখা_ও_বিধিবিধান_মুফতী_mq_1.pdf
-│   │   ├── মোহাম্মাদী কায়দা.pdf
-│   │   ├── রাসূলে_আরাবি_ﷺ_বিশুদ্ধ_বর্ণনার_ভিত্তিতে_প্রিয়_নবির_সংক্ষিপ্ত_জীবনী.pdf
-│   │   ├── রুকইয়াহ_আব্দুল্লাহ_আল_মাহমুদ_২০১৮_.pdf
-│   │   ├── সুইটহার্ট_কুরআন_শাইখ_আতিক_উল্লাহ.pdf
-│   │   ├── সুরা ইউসুফের পরশে -শাইখ আলী জাবির আল ফাইফী.pdf
-│   │   ├── সূরা_কাহাফ_এবং_বর্তমান_বিশ্ব_ইমরান_নযর_হোসেন.pdf
-│   │   ├── হজ্জ ও উমরাহ সফরে সহজ গাইড.pdf
-│   │   ├── হাদিসের প্রামাণ্যতা.pdf
-│   │   ├── হায়দারাবাদ_ট্রাজেডি_ও_আজকের_বাংলাদেশ_আরিফুল_হক.pdf
-│   │   └── হিফয_করতে_হলে_শাইখ_আব্দুল_কাইয়্যূম_আস_সুহাইবানী.pdf
-│   └── number arabic.webp
-├── Sirat/
-│   ├── 10-Seerat-of-the-Prophet-SAW.pdf
-│   ├── Prophetic Routine Hori A4.pdf
-│   └── Sahaba/
-│       └── Men Around The Messenger (PBUH).chm
-```
-
+## 📑 Table of Contents
+- [🌟 Description](#-description)
+- [🎯 Features](#-features)
+- [📁 Repository Structure](#-repository-structure)
+- [🔗 Quick Access Links](#-quick-access-links)
+- [🚀 Getting Started](#-getting-started)
+- [📊 Learning Paths](#-learning-paths)
+- [🛠️ How to Use](#️-how-to-use)
+- [🤝 Contributing](#-contributing)
+- [📞 Support](#-support)
 
 ---
 
+## 🌟 Description
+A comprehensive educational repository designed for Islamic learning, featuring:
+- **📖 Arabic Language Mastery**: From basic alphabet to advanced grammar
+- **📿 Qur'an Study & Memorization**: Systematic approach to Hifz
+- **🕌 Islamic Knowledge**: Hadith, Seerah, and Islamic sciences
+- **📊 Progress Tracking**: Tools to monitor your learning journey
+- **🎨 Visual Learning**: Charts, images, and interactive materials
 
-## Quick Links
+---
 
-- **[Arabic](./Arabic/)**
-=======
+## 🎯 Features
+| Feature | Description |
+|---------|-------------|
+| 📖 **Arabic Learning** | Complete grammar guides, vocabulary builders, and pronunciation resources |
+| 📿 **Qur'an Tools** | Memorization aids, Tajweed guides, and progress trackers |
+| 🕌 **Islamic Studies** | Hadith collections, Duas, Prophet's biography, and Islamic sciences |
+| 📊 **Progress Tracking** | Organized materials to monitor learning achievements |
+| 🎨 **Visual Learning** | Images, charts, and infographics for effective learning |
+| 🌍 **Multi-language** | Resources in Arabic, English, Bengali, and Urdu |
 
-# QHub
+---
 
+## 📁 Repository Structure
 
+```
+🏛️ QHub - Islamic Learning Hub
+│
+├── 🔤 Arabic/                     # Arabic Language Learning
+│   ├── 📚 Books/                  # Comprehensive textbooks
+│   │   ├── 🇧🇩 Bangla books/      # Bengali resources
+│   │   ├── 📖 Dr V. Abdur Rahim/   # Madinah Arabic series
+│   │   ├── 📘 Madina Book/        # Popular course materials
+│   │   └── 🎯 حي على العربية/      # Living Arabic course
+│   ├── 🎓 Courses/                # Structured programs
+│   │   ├── 📋 Arabic101/          # Beginner course
+│   │   └── 🕌 Islamic Education/   # Islamic studies
+│   ├── 📝 Grammar/                # Detailed grammar
+│   │   ├── 🔧 Nahw/              # Syntax rules
+│   │   ├── 🎯 Verbs/             # Verb conjugation
+│   │   │   ├── 🖼️ Images/         # Visual charts
+│   │   │   └── 📄 Short pdf/      # Quick guides
+│   │   └── 📖 Modern Grammar.pdf  # Contemporary approach
+│   └── 📑 Short pdf/              # Quick references
+│
+├── 📖 Quran/                      # Qur'an Study & Memorization
+│   ├── 📚 Books/                  # Translations & commentary
+│   ├── 🧠 Memorization/           # Hifz tools
+│   │   ├── 🤲 Dua/               # Supportive prayers
+│   │   ├── 🖼️ Images/            # Visual aids
+│   │   ├── 📝 Progress.txt        # Track memorized verses
+│   │   └── 📷 Screenshots/        # Progress captures
+│   ├── 📄 Short pdf/              # Concise materials
+│   └── 🎵 Tajweed/               # Recitation rules
+│
+├── 🤲 Dua/                        # Supplications & Prayers
+│
+├── 📜 Hadith/                     # Prophetic Traditions
+│   ├── 🖼️ Images/                # Visual hadith
+│   ├── 🧠 Memorization/           # Memory aids
+│   │   ├── 🖼️ Images/            # Visual helpers
+│   │   ├── 📚 Pdfs/              # Study materials
+│   │   └── 📷 Screenshots/        # Learning journey
+│   └── 📄 Short pdf/              # Collections
+│       ├── 📖 110 Hadith Qudsi    # Divine sayings
+│       ├── 👶 30 Children Hadith  # Kids collection
+│       └── ✨ Divine Hadiths      # Sacred traditions
+│
+├── 📖 Others/                     # Additional Resources
+│   ├── 📚 Books/                  # Miscellaneous texts
+│   │   ├── 🎓 Board books/        # Educational curriculum
+│   │   └── 🔬 Ilm/               # Islamic sciences
+│   └── 🔢 Visual aids            # Learning tools
+│
+└── 👤 Sirat/                      # Prophet's Biography
+    ├── 📜 Biography texts         # Life stories
+    └── 👥 Sahaba/                # Companion stories
+```
+
+---
+
+## 🔗 Quick Access Links
+
+<div align="center">
+
+### 🎯 **Quick Navigation**
+| Arabic | Qur'an | Islamic Studies | Resources |
+|:------:|:------:|:---------------:|:---------:|
+| [📚 Books](./Arabic/Books/) | [📖 Translations](./Quran/Books/) | [🤲 Duas](./Dua/) | [📖 Others](./Others/) |
+| [🎓 Courses](./Arabic/Courses/) | [🧠 Memorization](./Quran/Memorization/) | [📜 Hadith](./Hadith/) | [👤 Sirat](./Sirat/) |
+| [📝 Grammar](./Arabic/Grammar/) | [🎵 Tajweed](./Quran/Tajweed/) | [🕌 Education](./Arabic/Courses/Islamic%20Education/) | [🔬 Sciences](./Others/Books/Ilm/) |
+
+</div>
+
+---
+
+### 🔤 **Arabic Learning Hub**
+
+#### 📚 **Core Textbooks & References**
+- **[🇧🇩 Bengali Resources](./Arabic/Books/Bangla%20books/)** - Arabic learning in Bengali language
+- **[📖 Madinah Arabic Series](./Arabic/Books/Dr%20V.%20Abdur%20Rahim%20Madinah%20Arabic%20Reader/)** - Dr. V. Abdur Rahim's comprehensive course
+- **[📘 Madina Book Collection](./Arabic/Books/Madina%20Book/)** - Popular Arabic learning materials
+- **[🎯 Living Arabic Course](./Arabic/Books/%D8%AD%D9%8A%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20-%20NQA/)** - حي على العربية interactive materials
+
+#### 🎓 **Structured Learning Programs**
+- **[📋 Arabic 101](./Arabic/Courses/Arabic101/)** - Complete beginner course
+- **[🕌 Islamic Education](./Arabic/Courses/Islamic%20Education/)** - Integrated Islamic studies
+
+#### 📝 **Grammar & Language Structure**
+- **[🔧 Nahw (Arabic Syntax)](./Arabic/Grammar/Nahw/)** - Sentence structure and rules
+- **[🎯 Arabic Verbs Hub](./Arabic/Grammar/Verbs/)** - Complete verb conjugation system
+  - **[🖼️ Visual Verb Charts](./Arabic/Grammar/Verbs/Images/)** - Conjugation tables and patterns
+  - **[📄 Verb Quick Guides](./Arabic/Grammar/Verbs/Short%20pdf/)** - Downloadable references
+- **[📖 Modern Arabic Grammar](./Arabic/Grammar/%E0%A6%86%E0%A6%A7%E0%A7%81%E0%A6%A8%E0%A6%BF%E0%A6%95%20%E0%A6%86%E0%A6%B0%E0%A6%AC%E0%A6%BF%20%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%A8.pdf)** - Contemporary grammar guide
+
+#### 📑 **Quick Reference Materials**
+- **[🎮 Interactive Arabic](./Arabic/Short%20pdf/lets%20play%2020.pdf)** - Fun learning activities
+
+---
+
+### 📖 **Qur'an Study Center**
+
+#### 📚 **Translations & Commentary**
+- **[📖 The Clear Qur'an](./Quran/Books/The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf)** - Dr. Mustafa Khattab's thematic translation
+- **[📄 Mufti Taqi Usmani Translation](./Quran/Books/quran-english-translation-mufti-taqi-usmani.pdf)** - Scholarly English translation
+- **[📋 30 Juz Overview](./Quran/Books/At%20a%20glance%20-%20summary%20of%20the%2030%20Juz%20of%20the%20blessed%20Quran.pdf)** - Complete Qur'an summary
+
+#### 🧠 **Memorization (Hifz) Tools**
+- **[📝 Progress Tracker](./Quran/Memorization/Memorized%20Verses.txt)** - Personal memorization log
+- **[🤲 Memorization Duas](./Quran/Memorization/Dua/)** - Supportive supplications
+- **[🖼️ Visual Memory Aids](./Quran/Memorization/Images/)** - Memorization helpers
+- **[📷 Progress Documentation](./Quran/Memorization/Screenshots/)** - Journey captures
+
+#### 📄 **Quick Study Materials**
+- **[📖 Arabic Qur'an Text](./Quran/Short%20pdf/01-Quraan-e-Kareem-Arabic.pdf)** - Complete Arabic text
+- **[📝 Vocabulary Builder](./Quran/Short%20pdf/04-PART-1-Quran-Words.pdf)** - Essential Qur'anic words
+- **[🤲 Daily Recitation Guide](./Quran/Short%20pdf/Daily-Recitations.pdf)** - Regular practice schedule
+- **[🌙 Surat Al-Mulk](./Quran/Short%20pdf/SuratMulkOnePageHiRes.pdf)** - High-resolution single page
+
+#### 🎵 **Tajweed & Recitation**
+- **[📚 Advanced Tajweed Guide](./Quran/Tajweed/Advanced-Tajweed-Book.pdf)** - Comprehensive rules
+- **[📖 Detailed Rules Manual](./Quran/Tajweed/02-Tajweed-Rules-in-details.pdf)** - In-depth study
+- **[📄 Tajweed Made Easy](./Quran/Tajweed/05-Tajweed-Made-Easy-English.pdf)** - Beginner-friendly guide
+- **[📋 Student Reference](./Quran/Tajweed/students-guide-to-tajweed-rules-.noha-assersy.pdf)** - Study companion
+- **[📄 Quick Tajweed Sheet](./Quran/Tajweed/tajweed-_2-page-guide-_learning-workhsheet2.pdf)** - 2-page summary
+
+---
+
+### 🕌 **Islamic Studies Collection**
+
+#### 🤲 **Duas & Supplications**
+- **[📖 Essential Duas Collection](./Dua/Essential_Duas.pdf)** - Must-know supplications
+- **[🗣️ Bilingual Prayer Book](./Dua/Supplication-Eng-Urdu.pdf)** - English-Urdu duas
+- **[🖼️ Visual Dua Reminder](./Dua/Allahumma-Rabba-Hadhih.webp)** - Beautiful Islamic art
+- **[�️ Protective Verses](./Dua/quran-manzil-with-urdu-tarjuma.pdf)** - Manzil with translation
+
+#### 📜 **Hadith Collections**
+- **[👶 Children's Hadith](./Hadith/Short%20pdf/30hadithschildren.pdf)** - 30 hadiths for young learners
+- **[✨ Hadith Qudsi Collection](./Hadith/Short%20pdf/110_hadith_qudsi.pdf)** - 110 divine sayings
+- **[📖 Sacred Traditions](./Hadith/Short%20pdf/the_divine_hadiths.pdf)** - Additional divine hadiths
+
+#### 🧠 **Hadith Memorization Center**
+- **[🖼️ Visual Learning Aids](./Hadith/Memorization/Images/)** - Hadith infographics
+- **[📚 Study Materials](./Hadith/Memorization/Pdfs/)** - Comprehensive resources
+- **[📷 Learning Journey](./Hadith/Memorization/Screenshots/)** - Progress documentation
+
+#### 👤 **Prophet's Biography (Seerah)**
+- **[📖 Complete Biography](./Sirat/10-Seerat-of-the-Prophet-SAW.pdf)** - Life of Prophet Muhammad ﷺ
+- **[⏰ Daily Prophetic Routine](./Sirat/Prophetic%20Routine%20Hori%20A4.pdf)** - Following the Sunnah
+- **[🌟 Authenticated Miracles](./Sirat/300%20Authenticated%20Miracles%20of%20Muhammad%20pbuh%202.pdf)** - Prophetic miracles
+- **[� Noble Companions](./Sirat/Sahaba/)** - Stories of the Sahaba
+  - **[� Men Around the Messenger](./Sirat/Sahaba/Men%20Around%20The%20Messenger%20(PBUH).chm)** - Companion biographies
+
+---
+
+### � **Specialized Resources**
+
+#### 🔬 **Islamic Sciences (Ilm)**
+- **[📝 Arabic Learning Guide](./Others/Books/Ilm/Esho%20Arbi%20Shikhi.pdf)** - এসো আরবি শিখি
+- **[🔧 Grammar Mastery](./Others/Books/Ilm/Esho%20Nahu%20Shikhi.pdf)** - এসো নাহু শিখি
+- **[📖 Qur'an Study Guide 1](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2001.pdf)** - এসো কুরআন শিখি (Part 1)
+- **[📖 Qur'an Study Guide 2](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2002.pdf)** - এসো কুরআন শিখি (Part 2)
+- **[📚 Sarf (Morphology)](./Others/Books/Ilm/Esho%20Srf%20Shikhi.pdf)** - এসো সরফ শিখি
+- **[📖 Al-Hadi ila Sarf](./Others/Books/Ilm/Al%20Hadi%20ila%20Srf.pdf)** - Advanced morphology
+
+#### 🎓 **Educational Curriculum**
+- **[📚 Board Book Collection](./Others/Books/Board%20books/)** - Grade-wise Islamic education materials
+
+#### 🕋 **Practical Islamic Knowledge**
+- **[🕋 Hajj & Umrah Guide](./Others/Books/fiqh_alsunnah_hajj_and_umrah.pdf)** - Complete pilgrimage manual
+- **[�️ Hisnul Muslim](./Others/Books/Hisnul%20Muslim%20Text%20version%20pass.pdf)** - Fortress of the Muslim
+- **[📖 Six Islamic Fundamentals](./Others/Books/six_fundamentals_or_qualities.pdf)** - Core principles
+
+#### 🔢 **Visual Learning Tools**
+- **[🔢 Arabic Numbers Chart](./Others/number%20arabic.webp)** - Number learning aid
+
+---
+
+## 🚀 Getting Started
+
+### 📋 **Quick Setup**
+```bash
+# Clone the repository
 git clone https://github.com/farhadalam75/QHub.git
+cd QHub
 
-📚 Arabic & Qur’an Learning Hub
+# Browse content
+ls -la
+```
 
-Description:
-A centralized system to manage Arabic learning and Qur’an memorization projects, including interactive tools, organized resources, and exercises to help learners track progress and improve.
+### 🎯 **Choose Your Learning Path**
 
-🌟 Overview
+| 🔰 **Absolute Beginner** | 🎯 **Intermediate Learner** | 🌟 **Advanced Student** |
+|:------------------------:|:---------------------------:|:------------------------:|
+| 1️⃣ [Arabic Alphabet](./Arabic/Courses/Arabic101/) | 1️⃣ [Advanced Grammar](./Arabic/Grammar/Verbs/) | 1️⃣ [Islamic Sciences](./Others/Books/Ilm/) |
+| 2️⃣ [Basic Grammar](./Arabic/Grammar/) | 2️⃣ [Tajweed Rules](./Quran/Tajweed/) | 2️⃣ [Qur'an Memorization](./Quran/Memorization/) |
+| 3️⃣ [Essential Duas](./Dua/) | 3️⃣ [Hadith Study](./Hadith/) | 3️⃣ [Advanced Texts](./Others/Books/) |
+| 4️⃣ [Short Stories](./Sirat/) | 4️⃣ [Seerah Study](./Sirat/) | 4️⃣ [Teaching Others](./Contributing/) |
 
-This repository serves as a central hub for learners who want to:
+---
 
-- Learn Arabic grammar, vocabulary, and pronunciation.
-- Memorize the Qur’an efficiently.
-- Track progress using exercises and interactive tools.
-- Access organized resources for easy and structured learning.
+## 📊 Learning Paths
 
-All materials are categorized into separate folders for clarity and accessibility.
+### 🎓 **Academic Track** (6-12 months)
+```mermaid
+graph LR
+    A[Arabic Basics] --> B[Grammar Study]
+    B --> C[Qur'an Reading]
+    C --> D[Islamic Studies]
+    D --> E[Advanced Texts]
+```
 
+**Detailed Path:**
+1. **Months 1-2**: [Arabic 101](./Arabic/Courses/Arabic101/) + [Basic Grammar](./Arabic/Grammar/)
+2. **Months 3-4**: [Verb Conjugation](./Arabic/Grammar/Verbs/) + [Tajweed](./Quran/Tajweed/)
+3. **Months 5-6**: [Qur'an Study](./Quran/Books/) + [Hadith Collection](./Hadith/)
+4. **Advanced**: [Islamic Sciences](./Others/Books/Ilm/) + [Original Texts](./Others/Books/)
 
-🗂 Repository Structure
+### 🧠 **Memorization Track** (1-3 years)
+```mermaid
+graph LR
+    A[Essential Duas] --> B[Short Surahs]
+    B --> C[Long Surahs]
+    C --> D[Full Juz]
+    D --> E[Complete Qur'an]
+```
 
-- [Arabic](./Arabic/)  
-	- [Books](./Arabic/Books/)  
-		- [Bangla books](./Arabic/Books/Bangla%20books/)  
-		- [Dr V. Abdur Rahim Madinah Arabic Reader](./Arabic/Books/Dr%20V.%20Abdur%20Rahim%20Madinah%20Arabic%20Reader/)  
-		- [Madina Book](./Arabic/Books/Madina%20Book/)  
-	- [Courses](./Arabic/Courses/)  
-		- [Islamic Education](./Arabic/Courses/Islamic%20Education/)  
-			- [grade 1slamic education 1.pdf](./Arabic/Courses/Islamic%20Education/grade%201slamic%20education%201.pdf)  
-	- [Grammar](./Arabic/Grammar/)  
-		- [Nahw](./Arabic/Grammar/Nahw/)  
-		- [Verbs](./Arabic/Grammar/Verbs/)  
-			- [Images](./Arabic/Grammar/Verbs/Images/)  
-			- [Short pdf](./Arabic/Grammar/Verbs/Short%20pdf/)  
-	- [Short pdf](./Arabic/Short%20pdf/)  
-		- [lets play t 20.pdf](./Arabic/Short%20pdf/lets%20play%20t%2020.pdf)
+**Structured Approach:**
+1. **Foundation**: [Essential Duas](./Dua/) + [Daily Recitations](./Quran/Short%20pdf/)
+2. **Building**: [Memorization Tools](./Quran/Memorization/) + [Progress Tracking](./Quran/Memorization/Memorized%20Verses.txt)
+3. **Expansion**: [Tajweed Mastery](./Quran/Tajweed/) + [Regular Review](./Quran/Memorization/Screenshots/)
 
-- [Quran](./Quran/)  
-	- [Books](./Quran/Books/)  
-		- [Surat Mulk One Page Hi Res.pdf](./Quran/Books/Surat%20Mulk%20One%20Page%20Hi%20Res.pdf)  
-		- [The Clear Quran A Thematic English Translation Allah edition Dr. Mustafa Khattab 2017 BC2C0DDB.pdf](./Quran/Books/The%20Clear%20Quran%20A%20Thematic%20English%20Translation%20Allah%20edition%20%20%20%20Dr.%20Mustafa%20Khattab%202017%20BC2C0DDB.pdf)  
-		- [quran english translation Mufti Taqi Usmani.pdf](./Quran/Books/quran%20english%20translation%20Mufti%20Taqi%20Usmani.pdf)  
-	- [Dua](./Quran/Dua/)  
-	- [Memorization](./Quran/Memorization/)  
-		- [Dua](./Quran/Memorization/Dua/)  
-		- [Memorized Verses.txt](./Quran/Memorization/Memorized%20Verses.txt)  
-		- [Resources](./Quran/Memorization/Resources/)  
-			- [memorizing the quran updated.ppt](./Quran/Memorization/Resources/memorizing%20the%20quran%20updated.ppt)  
-		- [Short pdf](./Quran/Short%20pdf/)  
-			- [At glance summary of the 30 Juz of the blessed Quran.pdf](./Quran/Short%20pdf/At%20glance%20summary%20of%20the%2030%20Juz%20of%20the%20blessed%20Quran.pdf)
-	- [Tajweed](./Quran/Tajweed/)  
-		- [students guide to tajweed rules. noha assersy.pdf](./Quran/Tajweed/students%20guide%20to%20tajweed%20rules.%20noha%20assersy.pdf)  
-		- [tajweed 2 page guide learning workhsheet2.pdf](./Quran/Tajweed/tajweed%202%20page%20guide%20learning%20workhsheet2.pdf)
+### 📚 **Islamic Studies Track** (3-6 months)
+```mermaid
+graph LR
+    A[Prophet's Life] --> B[Companion Stories]
+    B --> C[Hadith Study]
+    C --> D[Islamic Principles]
+    D --> E[Contemporary Issues]
+```
 
-- [Dua](./Dua/)  
-- [Hadith](./Hadith/)  
-	- [30 hadiths children.pdf](./Hadith/30%20hadiths%20children.pdf)
-- [Others](./Others/)  
-	- [Books](./Others/Books/)  
-		- [Ilm](./Others/Books/Ilm/)  
-			- [Al Hadila Srf.pdf](./Others/Books/Ilm/Al%20Hadila%20Srf.pdf)  
-			- [Esho Arbi Shikhi.pdf](./Others/Books/Ilm/Esho%20Arbi%20Shikhi.pdf)  
-			- [Esho Nahu Shikhi.pdf](./Others/Books/Ilm/Esho%20Nahu%20Shikhi.pdf)  
-			- [Esho Quran Shikhi 01.pdf](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2001.pdf)  
-			- [Esho Quran Shikhi 02.pdf](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2002.pdf)  
-			- [Esho Srf Shikhi.pdf](./Others/Books/Ilm/Esho%20Srf%20Shikhi.pdf)
-- [Sirat](./Sirat/)  
-	- [Prophetic Routine Hori A4.pdf](./Sirat/Prophetic%20Routine%20Hori%20A4.pdf)  
-	- [Sahaba](./Sirat/Sahaba/)  
-		- [Men Around The Messenger (PBUH).chm](./Sirat/Sahaba/Men%20Around%20The%20Messenger%20(PBUH).chm)
+**Knowledge Path:**
+1. **Biography**: [Seerah](./Sirat/) + [Companion Stories](./Sirat/Sahaba/)
+2. **Traditions**: [Hadith Collections](./Hadith/) + [Divine Sayings](./Hadith/Short%20pdf/)
+3. **Practical**: [Duas](./Dua/) + [Islamic Principles](./Others/Books/)
 
-Each folder contains multiple subfolders or files to keep resources organized and easy to navigate. Click the links above to explore the content directly.
+---
 
+## 🛠️ How to Use
 
-- [Arabic](./Arabic/)
->>>>>>> 80d7b5edccf5081d14293c62f17d24f31d581ff2
-	- [Books](./Arabic/Books/)
-		- [Bangla books](./Arabic/Books/Bangla%20books/)
-		- [Dr V. Abdur Rahim Madinah Arabic Reader](./Arabic/Books/Dr%20V.%20Abdur%20Rahim%20Madinah%20Arabic%20Reader/)
-		- [Madina Book](./Arabic/Books/Madina%20Book/)
-<<<<<<< HEAD
-		- [حي على العربية - NQA](./Arabic/Books/%D8%AD%D9%8A%20%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20-%20NQA/)
-	- [Courses](./Arabic/Courses/)
-		- [Arabic101](./Arabic/Courses/Arabic101/)
-		- [Islamic Education](./Arabic/Courses/Islamic%20Education/)
-	- [Grammar](./Arabic/Grammar/)
-		- [Nahw](./Arabic/Grammar/Nahw/)
-			- [Verbs](./Arabic/Grammar/Verbs/)
-				- [Images](./Arabic/Grammar/Verbs/Images/)
-				- [Short pdf](./Arabic/Grammar/Verbs/Short%20pdf/)
-					- [55 Verb of the Qur'an.pdf](./Arabic/Grammar/Verbs/Short%20pdf/55%20Verb%20of%20the%20Qur%27an.pdf)
-					- [Arabic Verb And Noun Conjugation filln And Save Forms](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20And%20Noun%20Conjugation%20filln%20And%20Save%20Forms/)
-					- [Arabic Verb Chart enhanced layout.odt](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20Chart%20enhanced%20layout.odt)
-					- [Arabic Verb Chart enhanced layout.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20Chart%20enhanced%20layout.pdf)
-					- [Arabic Verbs Made Easy Pdfs](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verbs%20Made%20Easy%20Pdfs/)
-					- [Arabic Verbs and Essentials of Grammar 2nd Ed.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verbs%20and%20Essentials%20of%20Grammar%202nd%20Ed.pdf)
-					- [Arabic conjugation.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20conjugation.pdf)
-					- [Past Tense.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Past%20Tense.pdf)
-					- [Present Tense.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Present%20Tense.pdf)
-					- [basic arabic verb conjugation chart.pdf](./Arabic/Grammar/Verbs/Short%20pdf/basic%20arabic%20verb%20conjugation%20chart.pdf)
-					- [en_understand_arabic_in_12_coloured_tables.pdf](./Arabic/Grammar/Verbs/Short%20pdf/en_understand_arabic_in_12_coloured_tables.pdf)
-		- [আধুনিক আরবি ব্যাকরন.pdf](./Arabic/Grammar/%E0%A6%86%E0%A6%A7%E0%A7%81%E0%A6%A8%E0%A6%BF%E0%A6%95%20%E0%A6%86%E0%A6%B0%E0%A6%AC%E0%A6%BF%20%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%A8.pdf)
-	- [Short pdf](./Arabic/Short%20pdf/)
-		- [lets play 20.pdf](./Arabic/Short%20pdf/lets%20play%2020.pdf)
+### 💡 **Study Tips**
+- **📱 Mobile Access**: All PDFs are mobile-friendly
+- **📝 Note-Taking**: Use the progress trackers provided
+- **🔄 Regular Review**: Revisit materials weekly
+- **👥 Study Groups**: Share links with fellow learners
 
-- **[Quran](./Quran/)**
-	- [Books](./Quran/Books/)
-		- [At a glance - summary of the 30 Juz of the blessed Quran.pdf](./Quran/Books/At%20a%20glance%20-%20summary%20of%20the%2030%20Juz%20of%20the%20blessed%20Quran.pdf)
-		- [The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf](./Quran/Books/The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf)
-		- [quran-english-translation-mufti-taqi-usmani.pdf](./Quran/Books/quran-english-translation-mufti-taqi-usmani.pdf)
-=======
-	- [Courses](./Arabic/Courses/)
-		- [Islamic Education](./Arabic/Courses/Islamic%20Education/)
-			- [grade 1 islamic education 1.pdf](./Arabic/Courses/Islamic%20Education/grade%201%20islamic%20education%201.pdf)
-	- [Grammar](./Arabic/Grammar/)
-		- [Nahw](./Arabic/Grammar/Nahw/)
-		- [Verbs](./Arabic/Grammar/Verbs/)
-			- [Images](./Arabic/Grammar/Verbs/Images/)
-			- [Short pdf](./Arabic/Grammar/Verbs/Short%20pdf/)
-				- [Arabic Verb And Noun Conjugation filln And Save Forms](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20And%20Noun%20Conjugation%20filln%20And%20Save%20Forms/)
-				- [Arabic Verb Chart enhanced layout.odt](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20Chart%20enhanced%20layout.odt)
-				- [Arabic Verb Chart enhanced layout.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verb%20Chart%20enhanced%20layout.pdf)
-				- [Arabic Verbs Made Easy Pdfs](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20Verbs%20Made%20Easy%20Pdfs/)
-				- [Arabic conjugation.pdf](./Arabic/Grammar/Verbs/Short%20pdf/Arabic%20conjugation.pdf)
-				- [basic arabic verb conjugation chart.pdf](./Arabic/Grammar/Verbs/Short%20pdf/basic%20arabic%20verb%20conjugation%20chart.pdf)
-	- [Short pdf](./Arabic/Short%20pdf/)
-		- [lets play 20.pdf](./Arabic/Short%20pdf/lets%20play%2020.pdf)
+### 📊 **Progress Tracking**
+1. **Personal Journal**: Create your own progress file
+2. **Memorization Log**: Use [Memorized Verses.txt](./Quran/Memorization/Memorized%20Verses.txt)
+3. **Screenshot Progress**: Document your journey in Screenshots folders
+4. **Review Schedule**: Set weekly review sessions
 
-- [Quran](./Quran/)
-	- [Books](./Quran/Books/)
-		- [Surat Mulk One Page Hi Res.pdf](./Quran/Books/Surat%20Mulk%20One%20Page%20Hi%20Res.pdf)
-		- [The Clear Quran A Thematic English Translation Allah edition    Dr. Mustafa Khattab 2017 BC2C0DDB.pdf](./Quran/Books/The%20Clear%20Quran%20A%20Thematic%20English%20Translation%20Allah%20edition%20%20%20%20%20Dr.%20Mustafa%20Khattab%202017%20BC2C0DDB.pdf)
-		- [quran english translation Mufti Taqi Usmani.pdf](./Quran/Books/quran%20english%20translation%20Mufti%20Taqi%20Usmani.pdf)
-	- [Dua](./Quran/Dua/)
->>>>>>> 80d7b5edccf5081d14293c62f17d24f31d581ff2
-	- [Memorization](./Quran/Memorization/)
-		- [Dua](./Quran/Memorization/Dua/)
-		- [Memorized Verses.txt](./Quran/Memorization/Memorized%20Verses.txt)
-		- [Resources](./Quran/Memorization/Resources/)
-<<<<<<< HEAD
-	- [Short pdf](./Quran/Short%20pdf/)
-		- [01-Quraan-e-Kareem-Arabic.pdf](./Quran/Short%20pdf/01-Quraan-e-Kareem-Arabic.pdf)
-		- [04-PART-1-Quran-Words.pdf](./Quran/Short%20pdf/04-PART-1-Quran-Words.pdf)
-		- [Daily-Recitations.pdf](./Quran/Short%20pdf/Daily-Recitations.pdf)
-		- [SuratMulkOnePageHiRes.pdf](./Quran/Short%20pdf/SuratMulkOnePageHiRes.pdf)
-	- [Tajweed](./Quran/Tajweed/)
-		- [02-Tajweed-Rules-in-details.pdf](./Quran/Tajweed/02-Tajweed-Rules-in-details.pdf)
-		- [05-Tajweed-Made-Easy-English.pdf](./Quran/Tajweed/05-Tajweed-Made-Easy-English.pdf)
-		- [Advanced-Tajweed-Book.pdf](./Quran/Tajweed/Advanced-Tajweed-Book.pdf)
-		- [students-guide-to-tajweed-rules-.noha-assersy.pdf](./Quran/Tajweed/students-guide-to-tajweed-rules-.noha-assersy.pdf)
-		- [tajweed-_2-page-guide-_learning-workhsheet2.pdf](./Quran/Tajweed/tajweed-_2-page-guide-_learning-workhsheet2.pdf)
+### � **Study Schedule Examples**
 
-- **[Dua](./Dua/)**
-	- [Allahumma-Rabba-Hadhih.webp](./Dua/Allahumma-Rabba-Hadhih.webp)
-	- [Essential_Duas.pdf](./Dua/Essential_Duas.pdf)
-	- [Supplication-Eng-Urdu.pdf](./Dua/Supplication-Eng-Urdu.pdf)
+#### 📅 **Daily 30-Minute Plan**
+| Time | Activity | Resource |
+|------|----------|----------|
+| 10 min | Arabic Grammar | [Grammar Section](./Arabic/Grammar/) |
+| 10 min | Qur'an Reading | [Translations](./Quran/Books/) |
+| 10 min | Hadith Study | [Daily Hadith](./Hadith/) |
 
-- **[Hadith](./Hadith/)**
-	- [110_hadith_qudsi.pdf](./Hadith/110_hadith_qudsi.pdf)
-	- [30hadithschildren.pdf](./Hadith/30hadithschildren.pdf)
-	- [the_divine_hadiths.pdf](./Hadith/the_divine_hadiths.pdf)
+#### 📅 **Weekly Intensive Plan (2 hours/day)**
+| Day | Focus | Resources |
+|-----|-------|-----------|
+| Monday | Arabic Letters & Grammar | [Arabic Books](./Arabic/Books/) |
+| Tuesday | Qur'an Translation | [Qur'an Books](./Quran/Books/) |
+| Wednesday | Tajweed Practice | [Tajweed Guides](./Quran/Tajweed/) |
+| Thursday | Hadith Memorization | [Hadith Collections](./Hadith/) |
+| Friday | Seerah Study | [Prophet's Biography](./Sirat/) |
+| Weekend | Review & Practice | All sections |
 
-- **[Others](./Others/)**
-	- [Books](./Others/Books/)
-		- [Board books](./Others/Books/Board%20books/)
-		- [Ilm](./Others/Books/Ilm/)
-			- [Al Hadi ila Srf.pdf](./Others/Books/Ilm/Al%20Hadi%20ila%20Srf.pdf)
-=======
-			- [memorizing the quran updated.ppt](./Quran/Memorization/Resources/memorizing%20the%20quran%20updated.ppt)
-	- [Short pdf](./Quran/Short%20pdf/)
-		- [At glance summary of the 30 Juz of the blessed Quran.pdf](./Quran/Short%20pdf/At%20glance%20summary%20of%20the%2030%20Juz%20of%20the%20blessed%20Quran.pdf)
-	- [Tajweed](./Quran/Tajweed/)
-		- [students guide to tajweed rules noha assersy.pdf](./Quran/Tajweed/students%20guide%20to%20tajweed%20rules%20noha%20assersy.pdf)
-		- [tajweed 2 page guide learning workhsheet.pdf](./Quran/Tajweed/tajweed%202%20page%20guide%20learning%20workhsheet.pdf)
+---
 
-- [Dua](./Dua/)
-- [Hadith](./Hadith/)
-	- [30 hadiths children.pdf](./Hadith/30%20hadiths%20children.pdf)
-- [Others](./Others/)
-	- [Books](./Others/Books/)
-		- [Ilm](./Others/Books/Ilm/)
-			- [Al Hadila Srf.pdf](./Others/Books/Ilm/Al%20Hadila%20Srf.pdf)
->>>>>>> 80d7b5edccf5081d14293c62f17d24f31d581ff2
-			- [Esho Arbi Shikhi.pdf](./Others/Books/Ilm/Esho%20Arbi%20Shikhi.pdf)
-			- [Esho Nahu Shikhi.pdf](./Others/Books/Ilm/Esho%20Nahu%20Shikhi.pdf)
-			- [Esho Quran Shikhi 01.pdf](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2001.pdf)
-			- [Esho Quran Shikhi 02.pdf](./Others/Books/Ilm/Esho%20Quran%20Shikhi%2002.pdf)
-			- [Esho Srf Shikhi.pdf](./Others/Books/Ilm/Esho%20Srf%20Shikhi.pdf)
-<<<<<<< HEAD
-		- [Mukto_Bateser_Khoje.pdf](./Others/Books/Mukto_Bateser_Khoje.pdf)
-		- [Quran Salat Onudhabon.pdf](./Others/Books/Quran%20Salat%20Onudhabon.pdf)
-		- [fiqh_alsunnah_hajj_and_umrah.pdf](./Others/Books/fiqh_alsunnah_hajj_and_umrah.pdf)
-		- [hajj_3d.pdf](./Others/Books/hajj_3d.pdf)
-		- [six_fundamentals_or_qualities.pdf](./Others/Books/six_fundamentals_or_qualities.pdf)
-		- [umrah.pdf](./Others/Books/umrah.pdf)
-		- [virtues_of_hajj.pdf](./Others/Books/virtues_of_hajj.pdf)
-		- ... (more files)
-	- [number arabic.webp](./Others/number%20arabic.webp)
+## 🤝 Contributing
 
-- **[Sirat](./Sirat/)**
-	- [10-Seerat-of-the-Prophet-SAW.pdf](./Sirat/10-Seerat-of-the-Prophet-SAW.pdf)
-	- [Prophetic Routine Hori A4.pdf](./Sirat/Prophetic%20Routine%20Hori%20A4.pdf)
-	- [Sahaba](./Sirat/Sahaba/)
-		- [Men Around The Messenger (PBUH).chm](./Sirat/Sahaba/Men%20Around%20The%20Messenger%20(PBUH).chm)
-=======
-- [Sirat](./Sirat/)
-	- [Prophetic Routine Hori A4.pdf](./Sirat/Prophetic%20Routine%20Hori%20A4.pdf)
-	- [Sahaba](./Sirat/Sahaba/)
-		- [Men Around The Messenger (PBUH).chm](./Sirat/Sahaba/Men%20Around%20The%20Messenger%20(PBUH).chm)
+<div align="center">
 
->>>>>>> 80d7b5edccf5081d14293c62f17d24f31d581ff2
+**We welcome contributions from the global Islamic learning community!**
+
+[![Contributors](https://img.shields.io/github/contributors/farhadalam75/QHub)](https://github.com/farhadalam75/QHub/graphs/contributors)
+
+</div>
+
+### 🌟 **How to Contribute**
+
+#### 📚 **Content Contributions**
+- **Add New Resources**: Share Arabic textbooks, Qur'an study materials, or Islamic books
+- **Improve Translations**: Enhance existing translations or add new language versions
+- **Create Study Guides**: Develop learning schedules and progress tracking templates
+- **Add Visual Aids**: Contribute charts, infographics, and educational images
+
+#### 🔧 **Technical Contributions**
+- **Fix Broken Links**: Report and fix any non-working links
+- **Improve Organization**: Suggest better folder structures or categorization
+- **Enhance Documentation**: Improve README sections and descriptions
+- **Create Tools**: Develop learning apps or progress tracking utilities
+
+#### 📝 **Content Guidelines**
+1. **Islamic Authenticity**: Ensure all religious content is from verified sources
+2. **Copyright Respect**: Only add materials with proper permissions
+3. **Quality Standards**: Maintain high-quality, readable PDFs and images
+4. **Proper Attribution**: Credit original authors and sources
+5. **Language Accuracy**: Verify Arabic text and translations
+
+#### 🚀 **Getting Started with Contributing**
+```bash
+# Fork the repository
+git clone https://github.com/YOUR_USERNAME/QHub.git
+cd QHub
+
+# Create a new branch
+git checkout -b feature/your-contribution
+
+# Add your changes
+git add .
+git commit -m "Add: Description of your contribution"
+
+# Push to your fork
+git push origin feature/your-contribution
+
+# Create a Pull Request
+```
+
+#### 📋 **Contribution Checklist**
+- [ ] Content is appropriate for Islamic learning
+- [ ] Files are properly organized in correct folders
+- [ ] Links are tested and working
+- [ ] README is updated if necessary
+- [ ] Commit messages are clear and descriptive
+
+### 💡 **Ideas for Contribution**
+- **🎵 Audio Files**: Qur'an recitations, Arabic pronunciation guides
+- **🎥 Video Resources**: Learning tutorials and explanations
+- **📱 Mobile Apps**: Study companions and progress trackers
+- **🌍 Translations**: Content in different languages
+- **🎨 Design**: Improve visual elements and user experience
+- **📊 Analytics**: Learning progress dashboards
+
+---
+
+## 📞 Support
+
+<div align="center">
+
+### 🤝 **Get Help & Connect**
+
+| Support Type | Contact Method | Response Time |
+|:------------:|:--------------:|:-------------:|
+| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/farhadalam75/QHub/issues) | 24-48 hours |
+| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/farhadalam75/QHub/discussions) | 2-5 days |
+| 📧 **General Questions** | GitHub Issues | 1-3 days |
+| 🤝 **Collaboration** | Fork & Pull Request | Ongoing |
+
+</div>
+
+### � **Community Guidelines**
+- **🕊️ Respectful Communication**: Maintain Islamic etiquette in all interactions
+- **📖 Educational Focus**: Keep discussions centered on learning and improvement
+- **🌍 Inclusive Environment**: Welcome learners from all backgrounds and levels
+- **🤲 Beneficial Knowledge**: Share resources that benefit the Ummah
+
+### 🆘 **Common Issues & Solutions**
+
+<details>
+<summary>📱 <strong>Mobile Access Issues</strong></summary>
+
+- **Problem**: PDFs not opening on mobile
+- **Solution**: Use mobile PDF readers like Adobe Acrobat Reader
+- **Alternative**: Convert to mobile-friendly formats
+
+</details>
+
+<details>
+<summary>🔗 <strong>Broken Links</strong></summary>
+
+- **Problem**: Links not working
+- **Solution**: Report via GitHub Issues with specific file paths
+- **Immediate Fix**: Try accessing files directly via folder navigation
+
+</details>
+
+<details>
+<summary>📥 <strong>Download Problems</strong></summary>
+
+- **Problem**: Files won't download
+- **Solution**: 
+  1. Right-click → "Save link as"
+  2. Check internet connection
+  3. Try different browser
+  4. Report persistent issues
+
+</details>
+
+<details>
+<summary>🔍 <strong>Finding Specific Content</strong></summary>
+
+- **Problem**: Can't locate specific material
+- **Solution**: 
+  1. Use Ctrl+F to search README
+  2. Check multiple related folders
+  3. Ask in GitHub Discussions
+  4. Suggest addition if missing
+
+</details>
+
+### 📊 **Project Statistics**
+
+<div align="center">
+
+![GitHub repo size](https://img.shields.io/github/repo-size/farhadalam75/QHub)
+![GitHub last commit](https://img.shields.io/github/last-commit/farhadalam75/QHub)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/farhadalam75/QHub)
+
+</div>
+
+---
+
+## 📜 License & Usage
+
+### ⚖️ **Educational Use License**
+This repository is created for **educational purposes** in Islamic learning. Please observe the following:
+
+#### ✅ **Permitted Uses**
+- 📚 Personal study and learning
+- 🎓 Educational institutions and madrasas
+- 👥 Study groups and Islamic circles
+- 🌍 Non-commercial sharing for educational benefit
+
+#### ❌ **Restricted Uses**
+- 💰 Commercial distribution without permission
+- 📝 Claiming authorship of original works
+- 🚫 Modifying religious texts without scholarly oversight
+- ⚠️ Using content for non-Islamic purposes
+
+#### 📖 **Attribution Requirements**
+- Credit original authors and sources
+- Maintain Islamic authenticity
+- Reference this repository when sharing
+- Respect copyright of individual works
+
+### 🤲 **Islamic Perspective on Knowledge**
+*"And whoever is given knowledge, he indeed is given abundant good."* - Qur'an 2:269
+
+This repository embodies the Islamic principle of sharing beneficial knowledge. We encourage:
+- 📚 **Seeking Knowledge**: Continuous learning and improvement
+- 🤝 **Sharing Wisdom**: Contributing to community learning
+- 🌟 **Sincere Intention**: Learning for the sake of Allah
+- 🌍 **Global Benefit**: Helping Muslims worldwide
+
+---
+
+<div align="center">
+
+## 🌟 **Support the Project**
+
+If this repository has benefited your Islamic learning journey:
+
+⭐ **Star this repository**  
+🤝 **Share with fellow Muslims**  
+🔗 **Link from your projects**  
+📢 **Spread the word**  
+
+**جزاكم الله خيراً** - May Allah reward you with good!
+
+---
+
+**بارك الله فيكم** - May Allah bless your learning journey! 🌟
+
+<small>*"The best of people are those who benefit others"* - Prophet Muhammad ﷺ</small>
+
+</div>
+
+---
+
+<div align="center">
+<sub>
+
+**Last Updated**: September 2025 | **Maintained with** ❤️ **for the Ummah**
+
+*This project is a sadaqah jariyah - ongoing charity through beneficial knowledge*
+
+</sub>
+</div>
