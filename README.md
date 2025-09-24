@@ -2,10 +2,6 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/farhadalam75/QHub?style=social)](https://github.com/farhadalam75/QHub/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/farhadalam75/QHub?style=social)](https://github.com/farhadalam75/QHub/network)
-[![GitHub issues](https://img.shields.io/github/issues/farhadalam75/QHub)](https://github.com/farhadalam75/QHub/issues)
-
 **🌟 A centralized system to manage Arabic learning and Qur'an memorization projects**
 
 *Including interactive tools, organized resources, and exercises to help learners track progress and improve*
@@ -329,15 +325,6 @@ graph LR
 
 ---
 
-## 🤝 Contributing
-
-<div align="center">
-
-**We welcome contributions from the global Islamic learning community!**
-
-[![Contributors](https://img.shields.io/github/contributors/farhadalam75/QHub)](https://github.com/farhadalam75/QHub/graphs/contributors)
-
-</div>
 
 ### 🌟 **How to Contribute**
 
@@ -393,117 +380,6 @@ git push origin feature/your-contribution
 - **🌍 Translations**: Content in different languages
 - **🎨 Design**: Improve visual elements and user experience
 - **📊 Analytics**: Learning progress dashboards
-
----
-
-## 📞 Support
-
-<div align="center">
-
-### 🤝 **Get Help & Connect**
-
-| Support Type | Contact Method | Response Time |
-|:------------:|:--------------:|:-------------:|
-| 🐛 **Bug Reports** | [GitHub Issues](https://github.com/farhadalam75/QHub/issues) | 24-48 hours |
-| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/farhadalam75/QHub/discussions) | 2-5 days |
-| 📧 **General Questions** | GitHub Issues | 1-3 days |
-| 🤝 **Collaboration** | Fork & Pull Request | Ongoing |
-
-</div>
-
-### � **Community Guidelines**
-- **🕊️ Respectful Communication**: Maintain Islamic etiquette in all interactions
-- **📖 Educational Focus**: Keep discussions centered on learning and improvement
-- **🌍 Inclusive Environment**: Welcome learners from all backgrounds and levels
-- **🤲 Beneficial Knowledge**: Share resources that benefit the Ummah
-
-### 🆘 **Common Issues & Solutions**
-
-<details>
-<summary>📱 <strong>Mobile Access Issues</strong></summary>
-
-- **Problem**: PDFs not opening on mobile
-- **Solution**: Use mobile PDF readers like Adobe Acrobat Reader
-- **Alternative**: Convert to mobile-friendly formats
-
-</details>
-
-<details>
-<summary>🔗 <strong>Broken Links</strong></summary>
-
-- **Problem**: Links not working
-- **Solution**: Report via GitHub Issues with specific file paths
-- **Immediate Fix**: Try accessing files directly via folder navigation
-
-</details>
-
-<details>
-<summary>📥 <strong>Download Problems</strong></summary>
-
-- **Problem**: Files won't download
-- **Solution**: 
-  1. Right-click → "Save link as"
-  2. Check internet connection
-  3. Try different browser
-  4. Report persistent issues
-
-</details>
-
-<details>
-<summary>🔍 <strong>Finding Specific Content</strong></summary>
-
-- **Problem**: Can't locate specific material
-- **Solution**: 
-  1. Use Ctrl+F to search README
-  2. Check multiple related folders
-  3. Ask in GitHub Discussions
-  4. Suggest addition if missing
-
-</details>
-
-### 📊 **Project Statistics**
-
-<div align="center">
-
-![GitHub repo size](https://img.shields.io/github/repo-size/farhadalam75/QHub)
-![GitHub last commit](https://img.shields.io/github/last-commit/farhadalam75/QHub)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/farhadalam75/QHub)
-
-</div>
-
----
-
-## 📜 License & Usage
-
-### ⚖️ **Educational Use License**
-This repository is created for **educational purposes** in Islamic learning. Please observe the following:
-
-#### ✅ **Permitted Uses**
-- 📚 Personal study and learning
-- 🎓 Educational institutions and madrasas
-- 👥 Study groups and Islamic circles
-- 🌍 Non-commercial sharing for educational benefit
-
-#### ❌ **Restricted Uses**
-- 💰 Commercial distribution without permission
-- 📝 Claiming authorship of original works
-- 🚫 Modifying religious texts without scholarly oversight
-- ⚠️ Using content for non-Islamic purposes
-
-#### 📖 **Attribution Requirements**
-- Credit original authors and sources
-- Maintain Islamic authenticity
-- Reference this repository when sharing
-- Respect copyright of individual works
-
-### 🤲 **Islamic Perspective on Knowledge**
-*"And whoever is given knowledge, he indeed is given abundant good."* - Qur'an 2:269
-
-This repository embodies the Islamic principle of sharing beneficial knowledge. We encourage:
-- 📚 **Seeking Knowledge**: Continuous learning and improvement
-- 🤝 **Sharing Wisdom**: Contributing to community learning
-- 🌟 **Sincere Intention**: Learning for the sake of Allah
-- 🌍 **Global Benefit**: Helping Muslims worldwide
 
 ---
 
