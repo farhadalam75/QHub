@@ -154,7 +154,7 @@
             
             loadDocument(filePath) {
                 const fileExt = filePath.split('.').pop().toLowerCase();
-                const fileName = filePath.split('/').pop();
+                const fileName = decodeURIComponent(filePath.split('/').pop());
                 
                 document.getElementById('file-name').textContent = fileName;
                 

@@ -20,10 +20,22 @@
             font-family: monospace;
         }
         
+        .breadcrumb a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+        
         .file-list {
             background: white;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
         
         .file-item {
@@ -48,20 +60,14 @@
             width: 20px;
         }
         
-        .file-name {
+        .file-link {
             flex: 1;
             color: #2c3e50;
             text-decoration: none;
         }
         
-        .file-name:hover {
+        .file-link:hover {
             color: #3498db;
-        }
-        
-        .file-size {
-            color: #7f8c8d;
-            font-size: 0.9em;
-            margin-left: 10px;
         }
         
         .folder {
@@ -83,134 +89,245 @@
 </head>
 <body>
     <div class="browser-container">
-        <div class="breadcrumb">
+        <div class="breadcrumb" id="breadcrumb">
             <a href="index.html">🏠 Home</a> / <span id="current-path">Browse</span>
         </div>
         
-        <div class="file-list" id="file-list">
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Arabic" class="file-name folder">Arabic/</a>
-            </div>
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Quran" class="file-name folder">Quran/</a>
-            </div>
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Hadith" class="file-name folder">Hadith/</a>
-            </div>
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Dua" class="file-name folder">Dua/</a>
-            </div>
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Sirat" class="file-name folder">Sirat/</a>
-            </div>
-            <div class="file-item">
-                <span class="file-icon">📁</span>
-                <a href="?path=Others" class="file-name folder">Others/</a>
-            </div>
-        </div>
+        <ul class="file-list" id="file-list">
+            <!-- Content will be loaded dynamically -->
+        </ul>
     </div>
 
     <script>
-        class FileBrowser {
+        class FolderBrowser {
             constructor() {
-                this.initBrowser();
+                this.currentPath = new URLSearchParams(window.location.search).get('path') || '';
+                this.init();
             }
-            
-            initBrowser() {
-                const urlParams = new URLSearchParams(window.location.search);
-                const path = urlParams.get('path') || '';
-                
-                if (path) {
-                    this.loadDirectory(path);
-                }
+
+            init() {
+                this.loadFolder(this.currentPath);
             }
-            
-            loadDirectory(path) {
-                document.getElementById('current-path').textContent = path;
-                
-                // This is a simplified version - in a real implementation,
-                // you'd fetch the directory contents from the server
-                const directories = {
-                    'Arabic': [
-                        { name: 'Books/', type: 'folder', path: 'Arabic/Books' },
-                        { name: 'Courses/', type: 'folder', path: 'Arabic/Courses' },
-                        { name: 'Grammar/', type: 'folder', path: 'Arabic/Grammar' },
-                        { name: 'Short pdf/', type: 'folder', path: 'Arabic/Short pdf' },
-                        { name: 'adjectives_arabic.pdf', type: 'pdf', path: 'Arabic/adjectives_arabic.pdf' },
-                        { name: 'feelings_Arabic.pdf', type: 'pdf', path: 'Arabic/feelings_Arabic.pdf' }
-                    ],
-                    'Quran': [
-                        { name: 'Books/', type: 'folder', path: 'Quran/Books' },
-                        { name: 'Memorization/', type: 'folder', path: 'Quran/Memorization' },
-                        { name: 'Short pdf/', type: 'folder', path: 'Quran/Short pdf' },
-                        { name: 'Tajweed/', type: 'folder', path: 'Quran/Tajweed' }
-                    ],
-                    'Hadith': [
-                        { name: 'Images/', type: 'folder', path: 'Hadith/Images' },
-                        { name: 'Memorization/', type: 'folder', path: 'Hadith/Memorization' },
-                        { name: 'Short pdf/', type: 'folder', path: 'Hadith/Short pdf' }
-                    ]
-                };
-                
-                const contents = directories[path] || [];
-                this.renderFileList(contents, path);
-            }
-            
-            renderFileList(contents, currentPath) {
+
+            async loadFolder(path) {
+                const pathDisplay = document.getElementById('current-path');
                 const fileList = document.getElementById('file-list');
                 
-                let html = '';
+                pathDisplay.textContent = path || 'Home';
                 
-                // Add back button if not in root
-                if (currentPath) {
-                    const parentPath = currentPath.includes('/') ? 
-                        currentPath.substring(0, currentPath.lastIndexOf('/')) : '';
-                    html += `
-                        <div class="file-item">
-                            <span class="file-icon">⬆️</span>
-                            <a href="?path=${parentPath}" class="file-name">..</a>
-                        </div>
-                    `;
-                }
+                // Create breadcrumb navigation
+                this.createBreadcrumb(path);
                 
-                contents.forEach(item => {
-                    const icon = this.getIcon(item.type);
-                    const cssClass = item.type;
-                    const href = item.type === 'folder' ? 
-                        `?path=${item.path}` : 
-                        `viewer.html?file=${item.path}`;
+                try {
+                    // For GitHub Pages, we need to manually define the folder structure
+                    const folders = this.getFolderStructure();
+                    const currentFolder = this.getFolderContents(path, folders);
                     
-                    html += `
-                        <div class="file-item">
-                            <span class="file-icon">${icon}</span>
-                            <a href="${href}" class="file-name ${cssClass}">${item.name}</a>
-                        </div>
-                    `;
-                });
-                
-                fileList.innerHTML = html;
+                    fileList.innerHTML = '';
+                    
+                    if (currentFolder) {
+                        currentFolder.forEach(item => {
+                            const listItem = document.createElement('li');
+                            listItem.className = 'file-item';
+                            
+                            if (item.type === 'folder') {
+                                const newPath = path ? `${path}/${item.name}` : item.name;
+                                listItem.innerHTML = `
+                                    <span class="file-icon">📁</span>
+                                    <a href="?path=${encodeURIComponent(newPath)}" class="file-link folder">
+                                        ${item.name}
+                                    </a>
+                                `;
+                            } else {
+                                const filePath = path ? `${path}/${item.name}` : item.name;
+                                const viewerUrl = `viewer.html?file=${encodeURIComponent(filePath)}`;
+                                listItem.innerHTML = `
+                                    <span class="file-icon">${this.getFileIcon(item.name)}</span>
+                                    <a href="${viewerUrl}" class="file-link">
+                                        ${item.name}
+                                    </a>
+                                `;
+                            }
+                            
+                            fileList.appendChild(listItem);
+                        });
+                    } else {
+                        fileList.innerHTML = '<li class="file-item">No items found in this directory.</li>';
+                    }
+                } catch (error) {
+                    console.error('Error loading folder:', error);
+                    fileList.innerHTML = '<li class="file-item">Error loading folder contents</li>';
+                }
             }
-            
-            getIcon(type) {
-                const icons = {
-                    'folder': '📁',
-                    'pdf': '📄',
-                    'image': '🖼️',
-                    'text': '📝',
-                    'video': '🎥',
-                    'audio': '🎵'
+
+            createBreadcrumb(path) {
+                const breadcrumb = document.getElementById('breadcrumb');
+                if (!path) {
+                    breadcrumb.innerHTML = '<a href="index.html">🏠 Home</a> / <span>Browse</span>';
+                    return;
+                }
+
+                const parts = path.split('/');
+                let breadcrumbHtml = '<a href="index.html">🏠 Home</a> / <a href="browse.html">Browse</a>';
+                let currentPath = '';
+
+                parts.forEach((part, index) => {
+                    currentPath += (currentPath ? '/' : '') + part;
+                    if (index === parts.length - 1) {
+                        breadcrumbHtml += ` / <span>${part}</span>`;
+                    } else {
+                        breadcrumbHtml += ` / <a href="?path=${encodeURIComponent(currentPath)}">${part}</a>`;
+                    }
+                });
+
+                breadcrumb.innerHTML = breadcrumbHtml;
+            }
+
+            getFolderStructure() {
+                return {
+                    'Arabic': {
+                        'Books': {
+                            'Bangla books': {},
+                            'Dr V. Abdur Rahim Madinah Arabic Reader': {},
+                            'Madina Book': {
+                                'LQMMadinahBookNotes': {}
+                            }
+                        },
+                        'Courses': {
+                            'Arabic101': {
+                                '85%': {}
+                            },
+                            'Islamic Education': {}
+                        },
+                        'Grammar': {
+                            'Nahw': {},
+                            'Verbs': {
+                                'Images': {},
+                                'Short pdf': {
+                                    'Arabic Verb And Noun Conjugation filln And Save Forms': {}
+                                }
+                            }
+                        },
+                        'Short pdf': {}
+                    },
+                    'Quran': {
+                        'Books': {},
+                        'Memorization': {
+                            'Dua': {},
+                            'Images': {}
+                        },
+                        'Short pdf': {
+                            '1-29 Juz some surahs': {},
+                            '30th Juzz 78-114': {}
+                        },
+                        'Tajweed': {}
+                    },
+                    'Hadith': {
+                        'Images': {},
+                        'Memorization': {
+                            'Screenshots': {
+                                'Behaviour': {},
+                                'Belief': {}
+                            }
+                        },
+                        'Short pdf': {}
+                    },
+                    'Dua': {},
+                    'Sirat': {
+                        'Sahaba': {}
+                    },
+                    'Others': {
+                        'Books': {
+                            'Board books': {},
+                            'Ilm': {}
+                        },
+                        'Images': {}
+                    }
                 };
-                return icons[type] || '📄';
+            }
+
+            getFolderContents(path, structure) {
+                if (!path) {
+                    // Return top level folders
+                    return Object.keys(structure).map(key => ({
+                        name: key,
+                        type: 'folder'
+                    }));
+                }
+
+                const parts = path.split('/');
+                let current = structure;
+
+                // Navigate to the requested path
+                for (const part of parts) {
+                    if (current[part]) {
+                        current = current[part];
+                    } else {
+                        return null;
+                    }
+                }
+
+                // Return the contents of the current folder
+                const contents = [];
+                
+                // Add folders
+                Object.keys(current).forEach(key => {
+                    contents.push({
+                        name: key,
+                        type: 'folder'
+                    });
+                });
+
+                // Note: In a real implementation, you would also check for files
+                // For now, we'll add some sample files based on the folder structure
+                this.addSampleFiles(path, contents);
+
+                return contents;
+            }
+
+            addSampleFiles(path, contents) {
+                // Add sample files based on the folder path
+                const sampleFiles = {
+                    'Arabic/Grammar': ['আধুনিক আরবি ব্যাকরন.pdf'],
+                    'Quran/Memorization': ['Memorized Verses.txt'],
+                    'Sirat/Sahaba': ['Men Around The Messenger (PBUH).chm']
+                };
+
+                if (sampleFiles[path]) {
+                    sampleFiles[path].forEach(filename => {
+                        contents.push({
+                            name: filename,
+                            type: 'file'
+                        });
+                    });
+                }
+            }
+
+            getFileIcon(filename) {
+                const ext = filename.split('.').pop().toLowerCase();
+                switch (ext) {
+                    case 'pdf':
+                        return '📄';
+                    case 'jpg':
+                    case 'jpeg':
+                    case 'png':
+                    case 'gif':
+                    case 'webp':
+                        return '🖼️';
+                    case 'txt':
+                    case 'md':
+                        return '📝';
+                    case 'chm':
+                        return '📚';
+                    default:
+                        return '📄';
+                }
             }
         }
-        
+
+        // Initialize the browser when the page loads
         document.addEventListener('DOMContentLoaded', () => {
-            new FileBrowser();
+            new FolderBrowser();
         });
     </script>
 </body>
