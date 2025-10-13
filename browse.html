@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Files - QHub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .browser-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .breadcrumb {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-family: monospace;
+        }
+        
+        .file-list {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px;
+            border-bottom: 1px solid #eee;
+            transition: background-color 0.2s;
+        }
+        
+        .file-item:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        
+        .file-icon {
+            margin-right: 10px;
+            font-size: 1.2em;
+            width: 20px;
+        }
+        
+        .file-name {
+            flex: 1;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        
+        .file-name:hover {
+            color: #3498db;
+        }
+        
+        .file-size {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        
+        .folder {
+            color: #f39c12;
+        }
+        
+        .pdf {
+            color: #e74c3c;
+        }
+        
+        .image {
+            color: #27ae60;
+        }
+        
+        .text {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="browser-container">
+        <div class="breadcrumb">
+            <a href="index.html">🏠 Home</a> / <span id="current-path">Browse</span>
+        </div>
+        
+        <div class="file-list" id="file-list">
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Arabic" class="file-name folder">Arabic/</a>
+            </div>
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Quran" class="file-name folder">Quran/</a>
+            </div>
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Hadith" class="file-name folder">Hadith/</a>
+            </div>
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Dua" class="file-name folder">Dua/</a>
+            </div>
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Sirat" class="file-name folder">Sirat/</a>
+            </div>
+            <div class="file-item">
+                <span class="file-icon">📁</span>
+                <a href="?path=Others" class="file-name folder">Others/</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class FileBrowser {
+            constructor() {
+                this.initBrowser();
+            }
+            
+            initBrowser() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const path = urlParams.get('path') || '';
+                
+                if (path) {
+                    this.loadDirectory(path);
+                }
+            }
+            
+            loadDirectory(path) {
+                document.getElementById('current-path').textContent = path;
+                
+                // This is a simplified version - in a real implementation,
+                // you'd fetch the directory contents from the server
+                const directories = {
+                    'Arabic': [
+                        { name: 'Books/', type: 'folder', path: 'Arabic/Books' },
+                        { name: 'Courses/', type: 'folder', path: 'Arabic/Courses' },
+                        { name: 'Grammar/', type: 'folder', path: 'Arabic/Grammar' },
+                        { name: 'Short pdf/', type: 'folder', path: 'Arabic/Short pdf' },
+                        { name: 'adjectives_arabic.pdf', type: 'pdf', path: 'Arabic/adjectives_arabic.pdf' },
+                        { name: 'feelings_Arabic.pdf', type: 'pdf', path: 'Arabic/feelings_Arabic.pdf' }
+                    ],
+                    'Quran': [
+                        { name: 'Books/', type: 'folder', path: 'Quran/Books' },
+                        { name: 'Memorization/', type: 'folder', path: 'Quran/Memorization' },
+                        { name: 'Short pdf/', type: 'folder', path: 'Quran/Short pdf' },
+                        { name: 'Tajweed/', type: 'folder', path: 'Quran/Tajweed' }
+                    ],
+                    'Hadith': [
+                        { name: 'Images/', type: 'folder', path: 'Hadith/Images' },
+                        { name: 'Memorization/', type: 'folder', path: 'Hadith/Memorization' },
+                        { name: 'Short pdf/', type: 'folder', path: 'Hadith/Short pdf' }
+                    ]
+                };
+                
+                const contents = directories[path] || [];
+                this.renderFileList(contents, path);
+            }
+            
+            renderFileList(contents, currentPath) {
+                const fileList = document.getElementById('file-list');
+                
+                let html = '';
+                
+                // Add back button if not in root
+                if (currentPath) {
+                    const parentPath = currentPath.includes('/') ? 
+                        currentPath.substring(0, currentPath.lastIndexOf('/')) : '';
+                    html += `
+                        <div class="file-item">
+                            <span class="file-icon">⬆️</span>
+                            <a href="?path=${parentPath}" class="file-name">..</a>
+                        </div>
+                    `;
+                }
+                
+                contents.forEach(item => {
+                    const icon = this.getIcon(item.type);
+                    const cssClass = item.type;
+                    const href = item.type === 'folder' ? 
+                        `?path=${item.path}` : 
+                        `viewer.html?file=${item.path}`;
+                    
+                    html += `
+                        <div class="file-item">
+                            <span class="file-icon">${icon}</span>
+                            <a href="${href}" class="file-name ${cssClass}">${item.name}</a>
+                        </div>
+                    `;
+                });
+                
+                fileList.innerHTML = html;
+            }
+            
+            getIcon(type) {
+                const icons = {
+                    'folder': '📁',
+                    'pdf': '📄',
+                    'image': '🖼️',
+                    'text': '📝',
+                    'video': '🎥',
+                    'audio': '🎵'
+                };
+                return icons[type] || '📄';
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            new FileBrowser();
+        });
+    </script>
+</body>
+</html>

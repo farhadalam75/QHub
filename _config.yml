@@ -1,0 +1,43 @@
+# GitHub Pages Configuration for QHub
+title: "QHub - Arabic & Qur'an Learning Hub"
+description: "A centralized system to manage Arabic learning and Qur'an memorization projects"
+url: "https://farhadalam75.github.io"
+baseurl: "/QHub"
+
+# Theme
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections for better organization
+collections:
+  arabic:
+    output: true
+    permalink: /:collection/:name/
+  quran:
+    output: true
+    permalink: /:collection/:name/
+  hadith:
+    output: true
+    permalink: /:collection/:name/
+  sirat:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files from processing
+exclude:
+  - README_old.md
+  - .git/
+  - .gitignore
+
+# Include PDF files in site
+include:
+  - "*.pdf"
+  - "*/*.pdf"
+  - "*/*/*.pdf"
+  - "*/*/*/*.pdf"
