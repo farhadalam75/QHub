@@ -10,6 +10,8 @@
             max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+            min-height: 100vh;
+            box-sizing: border-box;
         }
         
         .breadcrumb {
@@ -18,6 +20,8 @@
             border-radius: 5px;
             margin-bottom: 20px;
             font-family: monospace;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
         
         .breadcrumb a {
@@ -44,6 +48,7 @@
             padding: 12px 20px;
             border-bottom: 1px solid #eee;
             transition: background-color 0.2s;
+            min-height: 50px;
         }
         
         .file-item:hover {
@@ -58,12 +63,16 @@
             margin-right: 10px;
             font-size: 1.2em;
             width: 20px;
+            flex-shrink: 0;
         }
         
         .file-link {
             flex: 1;
             color: #2c3e50;
             text-decoration: none;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            line-height: 1.4;
         }
         
         .file-link:hover {
@@ -84,6 +93,91 @@
         
         .text {
             color: #3498db;
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .browser-container {
+                padding: 15px;
+                margin: 0;
+                max-width: 100%;
+            }
+            
+            .breadcrumb {
+                padding: 8px 12px;
+                font-size: 14px;
+                margin-bottom: 15px;
+                border-radius: 4px;
+            }
+            
+            .file-list {
+                border-radius: 6px;
+                box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+            }
+            
+            .file-item {
+                padding: 15px 16px;
+                min-height: 60px;
+            }
+            
+            .file-icon {
+                margin-right: 12px;
+                font-size: 1.4em;
+                width: 24px;
+            }
+            
+            .file-link {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .browser-container {
+                padding: 10px;
+            }
+            
+            .breadcrumb {
+                padding: 6px 10px;
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+            
+            .file-item {
+                padding: 12px 14px;
+                min-height: 55px;
+            }
+            
+            .file-icon {
+                margin-right: 8px;
+                font-size: 1.3em;
+                width: 22px;
+            }
+            
+            .file-link {
+                font-size: 15px;
+                line-height: 1.4;
+            }
+        }
+        
+        /* Touch-friendly improvements */
+        @media (pointer: coarse) {
+            .file-item {
+                min-height: 48px;
+                padding: 12px 16px;
+            }
+            
+            .file-link {
+                padding: 4px 0;
+            }
+            
+            .file-item:hover {
+                background-color: transparent;
+            }
+            
+            .file-item:active {
+                background-color: #e3f2fd;
+            }
         }
     </style>
 </head>
@@ -286,15 +380,70 @@
             }
 
             addSampleFiles(path, contents) {
-                // Add sample files based on the folder path
-                const sampleFiles = {
+                // Add actual files based on the folder path
+                const actualFiles = {
                     'Arabic/Grammar': ['আধুনিক আরবি ব্যাকরন.pdf'],
+                    'Arabic/Courses/Arabic101': [
+                        'quran-quest_2024.pdf',
+                        'Understand 50% of the Quran - Arabic101.pdf',
+                        '50% Ebook -English - Edition II.pdf',
+                        '65% English-Book-2-First-Edition-Ebook.pdf'
+                    ],
+                    'Arabic/Courses/Arabic101/85%': [
+                        'Lesson 2 - 85% - Printable.pdf',
+                        'Lesson 2 - 85%.pdf',
+                        'PART III - Lesson 1.pdf',
+                        'PART III - Lesson 1 - Printable.pdf',
+                        'TEN Measures of Arabic Verbs.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 3.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 4.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 5.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 6 - Printer.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 7 -.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 8.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 9.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 10.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 11.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 12.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 13.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 14.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 15.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 16.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 17.pdf'
+                    ],
+                    'Quran/Tajweed': [
+                        'Advanced-Tajweed-Book.pdf',
+                        'makhaarij-al-huroof-table.pdf',
+                        '05-Tajweed-Made-Easy-English.pdf',
+                        'students-guide-to-tajweed-rules-.noha-assersy.pdf',
+                        '02-Tajweed-Rules-in-details.pdf',
+                        'tajweed-_2-page-guide-_learning-workhsheet2.pdf',
+                        'Tajweed_Text_Book.pdf',
+                        'Help Yourself in Reading Holy Quran Arabic - English.pdf',
+                        'Al Qaaidah Al Quraaniyyah - intro to tajweed.pdf'
+                    ],
+                    'Quran/Short pdf': [
+                        'Daily-Recitations.pdf',
+                        'Mushaf extras Spaces - Arabic101.pdf'
+                    ],
+                    'Quran/Short pdf/30th Juzz 78-114': [
+                        '93 সূরা দুহা.pdf',
+                        '110 সূরা নাসর.pdf',
+                        '113 সূরা ফালাক.pdf',
+                        '80 সূরা আবাসা.pdf',
+                        '109 সূরা কাফিরুন.pdf',
+                        '105 সূরা ফীল.pdf',
+                        '99 সূরা যিলযাল.pdf',
+                        '106 সূরা কুরায়শ.pdf',
+                        '85 সূরা বুরুজ.pdf'
+                    ],
                     'Quran/Memorization': ['Memorized Verses.txt'],
                     'Sirat/Sahaba': ['Men Around The Messenger (PBUH).chm']
                 };
 
-                if (sampleFiles[path]) {
-                    sampleFiles[path].forEach(filename => {
+                if (actualFiles[path]) {
+                    actualFiles[path].forEach(filename => {
                         contents.push({
                             name: filename,
                             type: 'file'
