@@ -380,7 +380,7 @@
             }
 
             addSampleFiles(path, contents) {
-                // Add actual files based on the folder path
+                // Comprehensive file mapping based on actual repository structure
                 const actualFiles = {
                     'Arabic/Grammar': ['আধুনিক আরবি ব্যাকরন.pdf'],
                     'Arabic/Courses/Arabic101': [
@@ -398,19 +398,32 @@
                         'PART III Book (5) How to understand The Holy Qurana.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 3.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 4.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 4 (PRINTABLE).pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 5.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 5 (Printable).pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 6 - Printer.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 7 -.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 7 (Printable).pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 8.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 8 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 9.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 9 - Printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 10.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 10 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 11.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 11 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 12.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 12 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 13.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 13 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 14.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 14 - printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 15.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 15- printable.pdf',
                         'PART III Book (5) How to understand The Holy Qurana list 16.pdf',
-                        'PART III Book (5) How to understand The Holy Qurana list 17.pdf'
+                        'PART III Book (5) How to understand The Holy Qurana list 16 - printable.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 17.pdf',
+                        'PART III Book (5) How to understand The Holy Qurana list 17 - printable.pdf'
                     ],
                     'Quran/Tajweed': [
                         'Advanced-Tajweed-Book.pdf',
@@ -428,18 +441,73 @@
                         'Mushaf extras Spaces - Arabic101.pdf'
                     ],
                     'Quran/Short pdf/30th Juzz 78-114': [
-                        '93 সূরা দুহা.pdf',
-                        '110 সূরা নাসর.pdf',
-                        '113 সূরা ফালাক.pdf',
+                        '78 সূরা নাবা\'.pdf',
                         '80 সূরা আবাসা.pdf',
-                        '109 সূরা কাফিরুন.pdf',
-                        '105 সূরা ফীল.pdf',
+                        '83  সূরা মুতাফফিফীন.pdf',
+                        '85 সূরা বুরুজ.pdf',
+                        '88 সূরা গাশিয়া.pdf',
+                        '90 সূরা বালাদ.pdf',
+                        '93 সূরা দুহা.pdf',
+                        '94 সূরা ইনশিরাহ্.pdf',
+                        '95 সূরা তীন.pdf',
                         '99 সূরা যিলযাল.pdf',
+                        '101 সূরা কারি\'আ.pdf',
+                        '104 সূরা হুমাযা.pdf',
+                        '105 সূরা ফীল.pdf',
                         '106 সূরা কুরায়শ.pdf',
-                        '85 সূরা বুরুজ.pdf'
+                        '107 সূরা মা\'ঊন.pdf',
+                        '109 সূরা কাফিরুন.pdf',
+                        '110 সূরা নাসর.pdf',
+                        '112 সূরা ইখলাস্.pdf',
+                        '113 সূরা ফালাক.pdf'
+                    ],
+                    'Quran/Short pdf/1-29 Juz some surahs': [
+                        '1 সূরা ফাতিহা.pdf',
+                        '2 সূরা বাকারা 4-74.pdf',
+                        '3 সূরা আলে \'ইমরান 75-114.pdf',
+                        '4 সূরা নিসা 115-156.pdf',
+                        '9 সূরা তাওবা 280-309.pdf',
+                        '17 বনী-ইসরাঈল P 436-455.pdf',
+                        '18 কাহফ P 456-476.pdf',
+                        '19 মারইয়াম P 477-490.pdf',
+                        '23 সূরা মু\'মিনূন 544-558.pdf',
+                        '26 সূরা শু\'আরা 586-607.pdf',
+                        '27 সূরা নামল 608-623.pdf',
+                        '28 সূরা কাসাস 623-640.pdf',
+                        '29 সূরা আনকাবূত 640-653.pdf',
+                        '31 সূরা লুকমান 664-669.pdf',
+                        '36 ইয়া-সীন 711-721.pdf',
+                        '39 সূরা যুমার 750-763.pdf',
+                        '40 সূরা মু\'মিন 764-778.pdf',
+                        '47 সূরা মুহাম্মাদ 833-839.pdf',
+                        '48 সূরা ফাত্হ 840-846.pdf',
+                        '49 সূরা হুজুরাত 847-850.pdf',
+                        '55 সূরা রাহমান.pdf',
+                        '56 সূরা ওয়াকি\'আঃ.pdf',
+                        '57 সূরা হাদীদ.pdf',
+                        '59 সূরা হাশর.pdf',
+                        '62 সূরা জুমা\'আ.pdf',
+                        '63 সূরা মুনাফিকূন.pdf',
+                        '64 সূরা তাগাবুন.pdf',
+                        '65 সূরা তালাক.pdf',
+                        '66 সূরা তাহরীম.pdf',
+                        '67 সূরা মুলক.pdf',
+                        '68 সূরা কালাম.pdf',
+                        '69 সূরা হাককা.pdf',
+                        '70 সূরা মা\'আরিজ.pdf',
+                        '71 সূরা নূহ্.pdf',
+                        '72 সূরা জিন.pdf',
+                        '73 সূরা মুযযাম্মিল.pdf',
+                        '75 সূরা কিয়ামা.pdf',
+                        '76 সূরা দাহর বা ইনসান.pdf'
                     ],
                     'Quran/Memorization': ['Memorized Verses.txt'],
-                    'Sirat/Sahaba': ['Men Around The Messenger (PBUH).chm']
+                    'Sirat/Sahaba': ['Men Around The Messenger (PBUH).chm'],
+                    'Hadith/Short pdf': [
+                        'the_divine_hadiths.pdf',
+                        '30hadithschildren.pdf',
+                        '110_hadith_qudsi.pdf'
+                    ]
                 };
 
                 if (actualFiles[path]) {
@@ -450,6 +518,18 @@
                         });
                     });
                 }
+
+                // Also try to match partial paths
+                Object.keys(actualFiles).forEach(filePath => {
+                    if (filePath.includes(path) && filePath !== path) {
+                        // Check if this is a direct child path
+                        const relativePath = filePath.substring(path.length + 1);
+                        if (relativePath && !relativePath.includes('/')) {
+                            // This is a direct child, don't add files
+                            return;
+                        }
+                    }
+                });
             }
 
             getFileIcon(filename) {
