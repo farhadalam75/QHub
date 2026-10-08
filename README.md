@@ -1,5 +1,30 @@
 # 📚 QHub - Arabic & Qur'an Learning Hub
 
+## Web Library and GitHub Pages
+
+Open the library at https://farhadalam75.github.io/QHub/ to browse every resource
+folder, view images, read PDFs with page and zoom controls, and download files.
+
+The Pages workflow generates the complete file index on every push to `main`.
+Resource files are served from this public repository, rather than bundled into
+the Pages artifact: the collection exceeds GitHub Pages' 1 GB site limit.
+PDF reading uses PDF.js from cdnjs. An internet connection is required for media.
+
+To publish changes, commit and push them to `main`. In repository Settings > Pages,
+keep the build source set to **GitHub Actions**. Check the **Deploy QHub to GitHub
+Pages** workflow in Actions for deployment status.
+
+To rebuild and preview locally:
+
+```sh
+python3 scripts/build_site.py
+python3 -m http.server 8000 --directory _site
+```
+
+Open http://localhost:8000/. The generated `assets/files.json` is also included
+in the repository so the source HTML works with a local HTTP server. Do not use
+`file://` to open these pages; browsers block module scripts and index fetching.
+
 <div align="center">
 
 **🌟 A centralized system to manage Arabic learning and Qur'an memorization projects**

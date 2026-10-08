@@ -1,0 +1,2623 @@
+{
+  "resourceBase": "https://raw.githubusercontent.com/farhadalam75/QHub/main/",
+  "folders": {
+    "": [
+      {
+        "name": "Arabic",
+        "path": "Arabic",
+        "type": "folder"
+      },
+      {
+        "name": "Dua",
+        "path": "Dua",
+        "type": "folder"
+      },
+      {
+        "name": "Hadith",
+        "path": "Hadith",
+        "type": "folder"
+      },
+      {
+        "name": "Others",
+        "path": "Others",
+        "type": "folder"
+      },
+      {
+        "name": "Quran",
+        "path": "Quran",
+        "type": "folder"
+      },
+      {
+        "name": "Sirat",
+        "path": "Sirat",
+        "type": "folder"
+      }
+    ],
+    "Arabic": [
+      {
+        "name": "Books",
+        "path": "Arabic/Books",
+        "type": "folder"
+      },
+      {
+        "name": "Courses",
+        "path": "Arabic/Courses",
+        "type": "folder"
+      },
+      {
+        "name": "Grammar",
+        "path": "Arabic/Grammar",
+        "type": "folder"
+      },
+      {
+        "name": "Short pdf",
+        "path": "Arabic/Short pdf",
+        "type": "folder"
+      },
+      {
+        "name": "+adjectives_arabic.pdf",
+        "path": "Arabic/+adjectives_arabic.pdf",
+        "type": "file",
+        "size": 4651129
+      },
+      {
+        "name": "feelings_Arabic.pdf",
+        "path": "Arabic/feelings_Arabic.pdf",
+        "type": "file",
+        "size": 504146
+      },
+      {
+        "name": "اللغة-العربية-هي-أصل-اللغات-_-تحية-عبد-العزيز-إسماعيل.pdf",
+        "path": "Arabic/اللغة-العربية-هي-أصل-اللغات-_-تحية-عبد-العزيز-إسماعيل.pdf",
+        "type": "file",
+        "size": 9393626
+      }
+    ],
+    "Arabic/Books/Bangla books": [
+      {
+        "name": "আমার কুরআন কারিম -শাইখ আতিক উল্লাহ.pdf",
+        "path": "Arabic/Books/Bangla books/আমার কুরআন কারিম -শাইখ আতিক উল্লাহ.pdf",
+        "type": "file",
+        "size": 1229014
+      },
+      {
+        "name": "আরবী_রস_আব্দুল্লাহ_মাহমুদ_নজীব.pdf",
+        "path": "Arabic/Books/Bangla books/আরবী_রস_আব্দুল্লাহ_মাহমুদ_নজীব.pdf",
+        "type": "file",
+        "size": 4630298
+      },
+      {
+        "name": "আল কুরানের আলোকে আরবি শিক্ষা.pdf",
+        "path": "Arabic/Books/Bangla books/আল কুরানের আলোকে আরবি শিক্ষা.pdf",
+        "type": "file",
+        "size": 3792395
+      },
+      {
+        "name": "আল-কুরআনের ভাষা -এস এম নাহিদ হাসান.pdf",
+        "path": "Arabic/Books/Bangla books/আল-কুরআনের ভাষা -এস এম নাহিদ হাসান.pdf",
+        "type": "file",
+        "size": 5869168
+      },
+      {
+        "name": "আল-কুরআনের শব্দসমূহ -এস এম নাহিদ হাসান.pdf",
+        "path": "Arabic/Books/Bangla books/আল-কুরআনের শব্দসমূহ -এস এম নাহিদ হাসান.pdf",
+        "type": "file",
+        "size": 8521976
+      },
+      {
+        "name": "এসো-আরবী-শিখি-প্রথম-এবং-দ্বিতীয়-খন্ডের-নোট-1.pdf",
+        "path": "Arabic/Books/Bangla books/এসো-আরবী-শিখি-প্রথম-এবং-দ্বিতীয়-খন্ডের-নোট-1.pdf",
+        "type": "file",
+        "size": 1201586
+      },
+      {
+        "name": "কুরআন_ও_সলাত_অনুধাবন_কোর্স_২_৭০_ভাগ_কুরআনের_শব্দ.pdf",
+        "path": "Arabic/Books/Bangla books/কুরআন_ও_সলাত_অনুধাবন_কোর্স_২_৭০_ভাগ_কুরআনের_শব্দ.pdf",
+        "type": "file",
+        "size": 4700532
+      },
+      {
+        "name": "কুরআন_ও_সালাত_অনুধাবন_কোর্স_১_৫০_ভাগ_কুরআনের_শব্দ.pdf",
+        "path": "Arabic/Books/Bangla books/কুরআন_ও_সালাত_অনুধাবন_কোর্স_১_৫০_ভাগ_কুরআনের_শব্দ.pdf",
+        "type": "file",
+        "size": 43513067
+      },
+      {
+        "name": "সুন্দর শব্দসমূহ -এস এম নাহিদ হাসান.pdf",
+        "path": "Arabic/Books/Bangla books/সুন্দর শব্দসমূহ -এস এম নাহিদ হাসান.pdf",
+        "type": "file",
+        "size": 3408783
+      }
+    ],
+    "Arabic/Books": [
+      {
+        "name": "Bangla books",
+        "path": "Arabic/Books/Bangla books",
+        "type": "folder"
+      },
+      {
+        "name": "Dr V. Abdur Rahim Madinah Arabic Reader",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader",
+        "type": "folder"
+      },
+      {
+        "name": "Madina Book",
+        "path": "Arabic/Books/Madina Book",
+        "type": "folder"
+      },
+      {
+        "name": "حي على العربية - NQA",
+        "path": "Arabic/Books/حي على العربية - NQA",
+        "type": "folder"
+      }
+    ],
+    "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader": [
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   1 (2013).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   1 (2013).pdf",
+        "type": "file",
+        "size": 40615375
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   2 (2012).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   2 (2012).pdf",
+        "type": "file",
+        "size": 53002206
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   3 (2012).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   3 (2012).pdf",
+        "type": "file",
+        "size": 53146972
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   4 (2011).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   4 (2011).pdf",
+        "type": "file",
+        "size": 52201498
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   5 (2011).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   5 (2011).pdf",
+        "type": "file",
+        "size": 62076400
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   6 (2013).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   6 (2013).pdf",
+        "type": "file",
+        "size": 92836277
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   7 (2015).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   7 (2015).pdf",
+        "type": "file",
+        "size": 75530917
+      },
+      {
+        "name": "Dr V. Abdur Rahim. Madinah Arabic Reader   8 (2019).pdf",
+        "path": "Arabic/Books/Dr V. Abdur Rahim Madinah Arabic Reader/Dr V. Abdur Rahim. Madinah Arabic Reader   8 (2019).pdf",
+        "type": "file",
+        "size": 7534886
+      }
+    ],
+    "Arabic/Books/Madina Book/LQMMadinahBookNotes": [
+      {
+        "name": "LQM_Madinah_Book1_Notes_v8.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book1_Notes_v8.pdf",
+        "type": "file",
+        "size": 1068356
+      },
+      {
+        "name": "LQM_Madinah_Book1_Vocab.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book1_Vocab.pdf",
+        "type": "file",
+        "size": 152089
+      },
+      {
+        "name": "LQM_Madinah_Book2_Notes_v10.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book2_Notes_v10.pdf",
+        "type": "file",
+        "size": 3030114
+      },
+      {
+        "name": "LQM_Madinah_Book2_Notes_v11.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book2_Notes_v11.pdf",
+        "type": "file",
+        "size": 3708798
+      },
+      {
+        "name": "LQM_Madinah_Book2_Vocab.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book2_Vocab.pdf",
+        "type": "file",
+        "size": 139177
+      },
+      {
+        "name": "LQM_Madinah_Book3_Notes_v8.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book3_Notes_v8.pdf",
+        "type": "file",
+        "size": 1091258
+      },
+      {
+        "name": "LQM_Madinah_Book3_Notes_v9.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Madinah_Book3_Notes_v9.pdf",
+        "type": "file",
+        "size": 7261174
+      },
+      {
+        "name": "LQM_Quranic_Arabic_Notes_Level1_v9.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Quranic_Arabic_Notes_Level1_v9.pdf",
+        "type": "file",
+        "size": 3071011
+      },
+      {
+        "name": "LQM_Quranic_Arabic_Notes_Level2_v12.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Quranic_Arabic_Notes_Level2_v12.pdf",
+        "type": "file",
+        "size": 7516890
+      },
+      {
+        "name": "LQM_Quranic_Arabic_Notes_Level3_v10.pdf",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes/LQM_Quranic_Arabic_Notes_Level3_v10.pdf",
+        "type": "file",
+        "size": 6076861
+      }
+    ],
+    "Arabic/Books/Madina Book": [
+      {
+        "name": "LQMMadinahBookNotes",
+        "path": "Arabic/Books/Madina Book/LQMMadinahBookNotes",
+        "type": "folder"
+      },
+      {
+        "name": "Madina Book 1 Handouts.pdf",
+        "path": "Arabic/Books/Madina Book/Madina Book 1 Handouts.pdf",
+        "type": "file",
+        "size": 756746
+      },
+      {
+        "name": "Madina book 1 key.pdf",
+        "path": "Arabic/Books/Madina Book/Madina book 1 key.pdf",
+        "type": "file",
+        "size": 7757851
+      },
+      {
+        "name": "Madina Book 1 Solutions.pdf",
+        "path": "Arabic/Books/Madina Book/Madina Book 1 Solutions.pdf",
+        "type": "file",
+        "size": 7655241
+      },
+      {
+        "name": "Madina Book 1 Vocabulary.pdf",
+        "path": "Arabic/Books/Madina Book/Madina Book 1 Vocabulary.pdf",
+        "type": "file",
+        "size": 297261
+      },
+      {
+        "name": "Madina book 1.pdf",
+        "path": "Arabic/Books/Madina Book/Madina book 1.pdf",
+        "type": "file",
+        "size": 10641737
+      },
+      {
+        "name": "Madinah-Bk-1-Quraan-Reading-Book.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-Bk-1-Quraan-Reading-Book.pdf",
+        "type": "file",
+        "size": 5177168
+      },
+      {
+        "name": "Madinah-BK-1-Workbook-Lessons-1-10.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-BK-1-Workbook-Lessons-1-10.pdf",
+        "type": "file",
+        "size": 42052948
+      },
+      {
+        "name": "Madinah-Book-1-Lesson-1-Worksheets_.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-Book-1-Lesson-1-Worksheets_.pdf",
+        "type": "file",
+        "size": 4561853
+      },
+      {
+        "name": "Madinah-Book-1-Solutions-colour.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-Book-1-Solutions-colour.pdf",
+        "type": "file",
+        "size": 46723310
+      },
+      {
+        "name": "Madinah-Book-1-Solutions.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-Book-1-Solutions.pdf",
+        "type": "file",
+        "size": 8453350
+      },
+      {
+        "name": "Madinah-WORKBOOK-B-L11-23.pdf",
+        "path": "Arabic/Books/Madina Book/Madinah-WORKBOOK-B-L11-23.pdf",
+        "type": "file",
+        "size": 36181090
+      },
+      {
+        "name": "মদীনা আরাবিক বাংলা নোট.pdf",
+        "path": "Arabic/Books/Madina Book/মদীনা আরাবিক বাংলা নোট.pdf",
+        "type": "file",
+        "size": 4966797
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA": [
+      {
+        "name": "1st",
+        "path": "Arabic/Books/حي على العربية - NQA/1st",
+        "type": "folder"
+      },
+      {
+        "name": "2nd",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd",
+        "type": "folder"
+      },
+      {
+        "name": "3rd",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd",
+        "type": "folder"
+      },
+      {
+        "name": "4th",
+        "path": "Arabic/Books/حي على العربية - NQA/4th",
+        "type": "folder"
+      },
+      {
+        "name": "others",
+        "path": "Arabic/Books/حي على العربية - NQA/others",
+        "type": "folder"
+      },
+      {
+        "name": "predownloaded",
+        "path": "Arabic/Books/حي على العربية - NQA/predownloaded",
+        "type": "folder"
+      },
+      {
+        "name": "0. حي على العربية (الباب الأول).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/0. حي على العربية (الباب الأول).pdf",
+        "type": "file",
+        "size": 1412002
+      },
+      {
+        "name": "0.1. ১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/0.1. ১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "type": "file",
+        "size": 371193
+      },
+      {
+        "name": "1. ১ম পাঠের শিট (১ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ]).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1. ১ম পাঠের শিট (১ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ]).pdf",
+        "type": "file",
+        "size": 1598773
+      },
+      {
+        "name": "2. শিট- ২য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2. শিট- ২য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1305229
+      },
+      {
+        "name": "3. শিট- ৩য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3. শিট- ৩য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 790537
+      },
+      {
+        "name": "3.1. শিট- হুরুফ শামসিয়্যাহ ও হুরুফ ক্বমারিয়্যাহ এর বিবরণ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3.1. শিট- হুরুফ শামসিয়্যাহ ও হুরুফ ক্বমারিয়্যাহ এর বিবরণ.pdf",
+        "type": "file",
+        "size": 209560
+      },
+      {
+        "name": "3.2. শিট- আরবী বাক্যের খুঁটিনাটি (তারকীবের প্রাথমিক ধারনা).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3.2. শিট- আরবী বাক্যের খুঁটিনাটি (তারকীবের প্রাথমিক ধারনা).pdf",
+        "type": "file",
+        "size": 615187
+      },
+      {
+        "name": "Syllabus.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/Syllabus.pdf",
+        "type": "file",
+        "size": 106280
+      },
+      {
+        "name": "শিট- ৪র্থ পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/শিট- ৪র্থ পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1031591
+      },
+      {
+        "name": "শিট- ৫ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/শিট- ৫ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 854633
+      },
+      {
+        "name": "১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "type": "file",
+        "size": 922329
+      },
+      {
+        "name": "১ম অধ্যায়.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/১ম অধ্যায়.pdf",
+        "type": "file",
+        "size": 2505683
+      },
+      {
+        "name": "২য় অধ্যায়, হাইয়া আলাল আরাবিয়্যাহ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/২য় অধ্যায়, হাইয়া আলাল আরাবিয়্যাহ.pdf",
+        "type": "file",
+        "size": 720610
+      },
+      {
+        "name": "৭ম পাঠ, ১ম অধ্যায়।.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/৭ম পাঠ, ১ম অধ্যায়।.pdf",
+        "type": "file",
+        "size": 710344
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/1st": [
+      {
+        "name": "0. حي على العربية (الباب الأول).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/0. حي على العربية (الباب الأول).pdf",
+        "type": "file",
+        "size": 1412002
+      },
+      {
+        "name": "0.1. ১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/0.1. ১ম অধ্যায়ের সকল শব্দ সঙ্কলন.pdf",
+        "type": "file",
+        "size": 371193
+      },
+      {
+        "name": "1. ১ম পাঠের শিট (১ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ]).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/1. ১ম পাঠের শিট (১ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ]).pdf",
+        "type": "file",
+        "size": 1598773
+      },
+      {
+        "name": "2. শিট- ২য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/2. শিট- ২য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1305229
+      },
+      {
+        "name": "3. শিট- ৩য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/3. শিট- ৩য় পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 790537
+      },
+      {
+        "name": "3.1. শিট- হুরুফ শামসিয়্যাহ ও হুরুফ ক্বমারিয়্যাহ এর বিবরণ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/3.1. শিট- হুরুফ শামসিয়্যাহ ও হুরুফ ক্বমারিয়্যাহ এর বিবরণ.pdf",
+        "type": "file",
+        "size": 209560
+      },
+      {
+        "name": "3.2. শিট- আরবী বাক্যের খুঁটিনাটি (তারকীবের প্রাথমিক ধারনা).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/3.2. শিট- আরবী বাক্যের খুঁটিনাটি (তারকীবের প্রাথমিক ধারনা).pdf",
+        "type": "file",
+        "size": 615187
+      },
+      {
+        "name": "শিট- ১০ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/শিট- ১০ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 896624
+      },
+      {
+        "name": "শিট- ৪র্থ পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/শিট- ৪র্থ পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1031591
+      },
+      {
+        "name": "শিট- ৫ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/শিট- ৫ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 854633
+      },
+      {
+        "name": "শীট- ৮ম পাঠ, ১ম অধ্যায়।.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/শীট- ৮ম পাঠ, ১ম অধ্যায়।.pdf",
+        "type": "file",
+        "size": 870520
+      },
+      {
+        "name": "৭ম পাঠ, ১ম অধ্যায়।.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/1st/৭ম পাঠ, ১ম অধ্যায়।.pdf",
+        "type": "file",
+        "size": 710344
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/2nd": [
+      {
+        "name": "শিট- ১ম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ১ম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1609889
+      },
+      {
+        "name": "শিট- ১০ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ১০ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 61916643
+      },
+      {
+        "name": "শিট- ১২ তম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ১২ তম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1217145
+      },
+      {
+        "name": "শিট- ২য় পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ২য় পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1213121
+      },
+      {
+        "name": "শিট- ৩য় পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ৩য় পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1280777
+      },
+      {
+        "name": "শিট- ৫ম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ৫ম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1411151
+      },
+      {
+        "name": "শিট- ৭ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ৭ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1241155
+      },
+      {
+        "name": "শিট- ৮ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ৮ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1318509
+      },
+      {
+        "name": "শিট- ৯ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/শিট- ৯ম পাঠ, ১ম অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1063711
+      },
+      {
+        "name": "১১তম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/১১তম পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1536949
+      },
+      {
+        "name": "২য় অধ্যায়, হাইয়া আলাল আরাবিয়্যাহ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/২য় অধ্যায়, হাইয়া আলাল আরাবিয়্যাহ.pdf",
+        "type": "file",
+        "size": 720610
+      },
+      {
+        "name": "২য় অধ্যায়ের সকল শব্দার্থ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/২য় অধ্যায়ের সকল শব্দার্থ.pdf",
+        "type": "file",
+        "size": 392435
+      },
+      {
+        "name": "৪থ পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/৪থ পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 796428
+      },
+      {
+        "name": "৬ষ্ঠ পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/2nd/৬ষ্ঠ পাঠ, ২য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1038700
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/3rd": [
+      {
+        "name": "দারস-২৫ এর শীট [৩য় অধ্যায়, ৯ম পাঠ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/দারস-২৫ এর শীট [৩য় অধ্যায়, ৯ম পাঠ].pdf",
+        "type": "file",
+        "size": 928653
+      },
+      {
+        "name": "শিট- [৩য় অধ্যায়, ২য় পাঠ, ১ম পরিচ্ছেদ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- [৩য় অধ্যায়, ২য় পাঠ, ১ম পরিচ্ছেদ].pdf",
+        "type": "file",
+        "size": 761443
+      },
+      {
+        "name": "শিট- ১ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ১ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1820006
+      },
+      {
+        "name": "শিট- ১০ম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ১০ম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1194288
+      },
+      {
+        "name": "শিট- ১১ তম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ১১ তম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 770015
+      },
+      {
+        "name": "শিট- ৪র্থ পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ৪র্থ পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1145077
+      },
+      {
+        "name": "শিট- ৫ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ৫ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 897034
+      },
+      {
+        "name": "শিট- ৬ষ্ঠ পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ৬ষ্ঠ পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 716156
+      },
+      {
+        "name": "শিট- ৭ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ৭ম পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1202445
+      },
+      {
+        "name": "শিট- ৮ম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট- ৮ম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 782579
+      },
+      {
+        "name": "শিট-৩য় পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শিট-৩য় পাঠ, ৩য় অধ্যায় [হাইইয়া আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 1017802
+      },
+      {
+        "name": "শীট- ১২ তম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/শীট- ১২ তম পাঠ, ৩য় অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 900018
+      },
+      {
+        "name": "৩য় অধ্যায় (হাইয়া আলাল আরাবিয়্যাহ).pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/৩য় অধ্যায় (হাইয়া আলাল আরাবিয়্যাহ).pdf",
+        "type": "file",
+        "size": 3019797
+      },
+      {
+        "name": "৩য় অধ্যায়ের সকল শব্দার্থ.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/3rd/৩য় অধ্যায়ের সকল শব্দার্থ.pdf",
+        "type": "file",
+        "size": 446544
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/4th": [
+      {
+        "name": "শিট- ১ম পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/শিট- ১ম পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 770364
+      },
+      {
+        "name": "শিট- ৩য় পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/শিট- ৩য় পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 803503
+      },
+      {
+        "name": "শীট- [১ম পরিচ্ছেদ, ২য় পাঠ, ৪র্থ অধ্যায়].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/শীট- [১ম পরিচ্ছেদ, ২য় পাঠ, ৪র্থ অধ্যায়].pdf",
+        "type": "file",
+        "size": 767917
+      },
+      {
+        "name": "শীট- ৪র্থ পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/শীট- ৪র্থ পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 766221
+      },
+      {
+        "name": "শীট- ৫ম পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/শীট- ৫ম পাঠ, ৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 873570
+      },
+      {
+        "name": "৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/4th/৪র্থ অধ্যায় [হাইয়্যা আলাল আরাবিয়্যাহ].pdf",
+        "type": "file",
+        "size": 518183
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/others": [
+      {
+        "name": "দারস-০১ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০১ এর শিট.pdf",
+        "type": "file",
+        "size": 972846
+      },
+      {
+        "name": "দারস-০২ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০২ এর শিট.pdf",
+        "type": "file",
+        "size": 1246587
+      },
+      {
+        "name": "দারস-০৩ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৩ এর শিট.pdf",
+        "type": "file",
+        "size": 1066790
+      },
+      {
+        "name": "দারস-০৪ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৪ এর শিট.pdf",
+        "type": "file",
+        "size": 992009
+      },
+      {
+        "name": "দারস-০৫ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৫ এর শিট.pdf",
+        "type": "file",
+        "size": 942103
+      },
+      {
+        "name": "দারস-০৬ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৬ এর শিট.pdf",
+        "type": "file",
+        "size": 1258077
+      },
+      {
+        "name": "দারস-০৭ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৭ এর শিট.pdf",
+        "type": "file",
+        "size": 528531
+      },
+      {
+        "name": "দারস-০৮ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৮ এর শিট.pdf",
+        "type": "file",
+        "size": 1406624
+      },
+      {
+        "name": "দারস-০৯ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-০৯ এর শিট.pdf",
+        "type": "file",
+        "size": 1469741
+      },
+      {
+        "name": "দারস-১০ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-১০ এর শিট.pdf",
+        "type": "file",
+        "size": 1307670
+      },
+      {
+        "name": "দারস-১১ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-১১ এর শিট.pdf",
+        "type": "file",
+        "size": 1285899
+      },
+      {
+        "name": "দারস-১২ এর শিট.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/দারস-১২ এর শিট.pdf",
+        "type": "file",
+        "size": 1250311
+      },
+      {
+        "name": "শিট ২১ তম পাঠ। [১ম অধ্যায়, ২য় খণ্ড].pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/others/শিট ২১ তম পাঠ। [১ম অধ্যায়, ২য় খণ্ড].pdf",
+        "type": "file",
+        "size": 1010974
+      }
+    ],
+    "Arabic/Books/حي على العربية - NQA/predownloaded": [
+      {
+        "name": "Hifz.pdf",
+        "path": "Arabic/Books/حي على العربية - NQA/predownloaded/Hifz.pdf",
+        "type": "file",
+        "size": 61916643
+      }
+    ],
+    "Arabic/Courses/Arabic101": [
+      {
+        "name": "85%",
+        "path": "Arabic/Courses/Arabic101/85%",
+        "type": "folder"
+      },
+      {
+        "name": "50% Ebook -English - Edition II.pdf",
+        "path": "Arabic/Courses/Arabic101/50% Ebook -English - Edition II.pdf",
+        "type": "file",
+        "size": 2091613
+      },
+      {
+        "name": "65% English-Book-2-First-Edition-Ebook.pdf",
+        "path": "Arabic/Courses/Arabic101/65% English-Book-2-First-Edition-Ebook.pdf",
+        "type": "file",
+        "size": 4844300
+      },
+      {
+        "name": "quran-quest_2024.pdf",
+        "path": "Arabic/Courses/Arabic101/quran-quest_2024.pdf",
+        "type": "file",
+        "size": 1091733
+      },
+      {
+        "name": "Understand 50% of the Quran - Arabic101.pdf",
+        "path": "Arabic/Courses/Arabic101/Understand 50% of the Quran - Arabic101.pdf",
+        "type": "file",
+        "size": 2266467
+      }
+    ],
+    "Arabic/Courses": [
+      {
+        "name": "Arabic101",
+        "path": "Arabic/Courses/Arabic101",
+        "type": "folder"
+      },
+      {
+        "name": "Islamic Education",
+        "path": "Arabic/Courses/Islamic Education",
+        "type": "folder"
+      }
+    ],
+    "Arabic/Courses/Arabic101/85%": [
+      {
+        "name": "Lesson 2 - 85% - Printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/Lesson 2 - 85% - Printable.pdf",
+        "type": "file",
+        "size": 371752
+      },
+      {
+        "name": "Lesson 2 - 85%.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/Lesson 2 - 85%.pdf",
+        "type": "file",
+        "size": 1077389
+      },
+      {
+        "name": "PART III - Lesson 1 - Printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III - Lesson 1 - Printable.pdf",
+        "type": "file",
+        "size": 883335
+      },
+      {
+        "name": "PART III - Lesson 1.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III - Lesson 1.pdf",
+        "type": "file",
+        "size": 5384017
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 10 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 10 - printable.pdf",
+        "type": "file",
+        "size": 380743
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 10.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 10.pdf",
+        "type": "file",
+        "size": 1085606
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 11 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 11 - printable.pdf",
+        "type": "file",
+        "size": 456463
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 11.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 11.pdf",
+        "type": "file",
+        "size": 1161372
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 12 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 12 - printable.pdf",
+        "type": "file",
+        "size": 393378
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 12.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 12.pdf",
+        "type": "file",
+        "size": 1097915
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 13 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 13 - printable.pdf",
+        "type": "file",
+        "size": 457540
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 13.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 13.pdf",
+        "type": "file",
+        "size": 1161316
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 14 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 14 - printable.pdf",
+        "type": "file",
+        "size": 527416
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 14.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 14.pdf",
+        "type": "file",
+        "size": 1235672
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 15- printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 15- printable.pdf",
+        "type": "file",
+        "size": 496158
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 15.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 15.pdf",
+        "type": "file",
+        "size": 1201592
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 16 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 16 - printable.pdf",
+        "type": "file",
+        "size": 463668
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 16.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 16.pdf",
+        "type": "file",
+        "size": 1168641
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 17 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 17 - printable.pdf",
+        "type": "file",
+        "size": 511881
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 17.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 17.pdf",
+        "type": "file",
+        "size": 1216869
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 3.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 3.pdf",
+        "type": "file",
+        "size": 1126279
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 4 (PRINTABLE).pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 4 (PRINTABLE).pdf",
+        "type": "file",
+        "size": 413436
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 4.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 4.pdf",
+        "type": "file",
+        "size": 1118752
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 5 (Printable).pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 5 (Printable).pdf",
+        "type": "file",
+        "size": 422173
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 5.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 5.pdf",
+        "type": "file",
+        "size": 1125822
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 6 - Printer.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 6 - Printer.pdf",
+        "type": "file",
+        "size": 424794
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 7 (Printable).pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 7 (Printable).pdf",
+        "type": "file",
+        "size": 391333
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 7 -.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 7 -.pdf",
+        "type": "file",
+        "size": 1094257
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 8 - printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 8 - printable.pdf",
+        "type": "file",
+        "size": 371331
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 8.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 8.pdf",
+        "type": "file",
+        "size": 1076353
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 9 - Printable.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 9 - Printable.pdf",
+        "type": "file",
+        "size": 458013
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana list 9.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana list 9.pdf",
+        "type": "file",
+        "size": 1100870
+      },
+      {
+        "name": "PART III Book (5) How to understand The Holy Qurana.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/PART III Book (5) How to understand The Holy Qurana.pdf",
+        "type": "file",
+        "size": 1128006
+      },
+      {
+        "name": "TEN Measures of Arabic Verbs.pdf",
+        "path": "Arabic/Courses/Arabic101/85%/TEN Measures of Arabic Verbs.pdf",
+        "type": "file",
+        "size": 176620
+      }
+    ],
+    "Arabic/Courses/Islamic Education": [
+      {
+        "name": "grade-1-islamic-education_1.pdf",
+        "path": "Arabic/Courses/Islamic Education/grade-1-islamic-education_1.pdf",
+        "type": "file",
+        "size": 16401209
+      }
+    ],
+    "Arabic/Grammar/Nahw": [
+      {
+        "name": "Irab - Nahw.png",
+        "path": "Arabic/Grammar/Nahw/Irab - Nahw.png",
+        "type": "file",
+        "size": 24350
+      },
+      {
+        "name": "nahw-let-us-count-in-arabic-and-get-a-headache.pdf",
+        "path": "Arabic/Grammar/Nahw/nahw-let-us-count-in-arabic-and-get-a-headache.pdf",
+        "type": "file",
+        "size": 98453
+      },
+      {
+        "name": "nahw-methods-of-reflection-for-the-muzaray-verb.pdf",
+        "path": "Arabic/Grammar/Nahw/nahw-methods-of-reflection-for-the-muzaray-verb.pdf",
+        "type": "file",
+        "size": 96559
+      },
+      {
+        "name": "nahw-the-anatomy-of-a-sentence-part-1.pdf",
+        "path": "Arabic/Grammar/Nahw/nahw-the-anatomy-of-a-sentence-part-1.pdf",
+        "type": "file",
+        "size": 97549
+      }
+    ],
+    "Arabic/Grammar": [
+      {
+        "name": "Nahw",
+        "path": "Arabic/Grammar/Nahw",
+        "type": "folder"
+      },
+      {
+        "name": "Verbs",
+        "path": "Arabic/Grammar/Verbs",
+        "type": "folder"
+      },
+      {
+        "name": "আধুনিক আরবি ব্যাকরন.pdf",
+        "path": "Arabic/Grammar/আধুনিক আরবি ব্যাকরন.pdf",
+        "type": "file",
+        "size": 16484168
+      }
+    ],
+    "Arabic/Grammar/Verbs/Images": [
+      {
+        "name": "f1-table-double-root-letters-strong.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-double-root-letters-strong.png",
+        "type": "file",
+        "size": 212694
+      },
+      {
+        "name": "f1-table-hamza.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-hamza.png",
+        "type": "file",
+        "size": 198724
+      },
+      {
+        "name": "f1-table-strong-root-letters.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-strong-root-letters.png",
+        "type": "file",
+        "size": 240172
+      },
+      {
+        "name": "f1-table-two-weak-letters-waw-and-yaa.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-two-weak-letters-waw-and-yaa.png",
+        "type": "file",
+        "size": 223000
+      },
+      {
+        "name": "f1-table-weak-letters-waw.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-weak-letters-waw.png",
+        "type": "file",
+        "size": 255786
+      },
+      {
+        "name": "f1-table-weak-letters-yaa.png",
+        "path": "Arabic/Grammar/Verbs/Images/f1-table-weak-letters-yaa.png",
+        "type": "file",
+        "size": 243186
+      },
+      {
+        "name": "f3-table-MAIN.png",
+        "path": "Arabic/Grammar/Verbs/Images/f3-table-MAIN.png",
+        "type": "file",
+        "size": 208936
+      },
+      {
+        "name": "istansaroo_06.png",
+        "path": "Arabic/Grammar/Verbs/Images/istansaroo_06.png",
+        "type": "file",
+        "size": 63404
+      },
+      {
+        "name": "Sound measure I .png",
+        "path": "Arabic/Grammar/Verbs/Images/Sound measure I .png",
+        "type": "file",
+        "size": 180339
+      },
+      {
+        "name": "Verb-conjugation-tables-1.png",
+        "path": "Arabic/Grammar/Verbs/Images/Verb-conjugation-tables-1.png",
+        "type": "file",
+        "size": 67674
+      },
+      {
+        "name": "Verb-root-letters-and-forms-1280x640.jpg",
+        "path": "Arabic/Grammar/Verbs/Images/Verb-root-letters-and-forms-1280x640.jpg",
+        "type": "file",
+        "size": 47014
+      },
+      {
+        "name": "verbchart.jpg",
+        "path": "Arabic/Grammar/Verbs/Images/verbchart.jpg",
+        "type": "file",
+        "size": 450043
+      }
+    ],
+    "Arabic/Grammar/Verbs": [
+      {
+        "name": "Images",
+        "path": "Arabic/Grammar/Verbs/Images",
+        "type": "folder"
+      },
+      {
+        "name": "Short pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf",
+        "type": "folder"
+      }
+    ],
+    "Arabic/Grammar/Verbs/Short pdf": [
+      {
+        "name": "Arabic Verb And Noun Conjugation filln And Save Forms",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms",
+        "type": "folder"
+      },
+      {
+        "name": "501 Verbs.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/501 Verbs.pdf",
+        "type": "file",
+        "size": 9536540
+      },
+      {
+        "name": "55 Verb of the Qur'an.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/55 Verb of the Qur'an.pdf",
+        "type": "file",
+        "size": 10501839
+      },
+      {
+        "name": "Arabic conjugation.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic conjugation.pdf",
+        "type": "file",
+        "size": 2729049
+      },
+      {
+        "name": "Arabic Verb Chart enhanced layout.odt",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb Chart enhanced layout.odt",
+        "type": "file",
+        "size": 23976
+      },
+      {
+        "name": "Arabic Verb Chart enhanced layout.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb Chart enhanced layout.pdf",
+        "type": "file",
+        "size": 56993
+      },
+      {
+        "name": "Arabic Verbs and Essentials of Grammar 2nd Ed.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verbs and Essentials of Grammar 2nd Ed.pdf",
+        "type": "file",
+        "size": 2342357
+      },
+      {
+        "name": "basic arabic verb conjugation chart.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/basic arabic verb conjugation chart.pdf",
+        "type": "file",
+        "size": 145109
+      },
+      {
+        "name": "en_understand_arabic_in_12_coloured_tables.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/en_understand_arabic_in_12_coloured_tables.pdf",
+        "type": "file",
+        "size": 1720776
+      },
+      {
+        "name": "L3 The Past Tense Verb.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/L3 The Past Tense Verb.pdf",
+        "type": "file",
+        "size": 141747
+      },
+      {
+        "name": "L3 The Present Tense Verb.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/L3 The Present Tense Verb.pdf",
+        "type": "file",
+        "size": 158217
+      },
+      {
+        "name": "Paradigms_Arabic_Verbs.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Paradigms_Arabic_Verbs.pdf",
+        "type": "file",
+        "size": 2961043
+      },
+      {
+        "name": "SAMPLE-Modern-Standard-Arabic-Verbs-by-Sample-Verb-Lingualism.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/SAMPLE-Modern-Standard-Arabic-Verbs-by-Sample-Verb-Lingualism.pdf",
+        "type": "file",
+        "size": 4283602
+      },
+      {
+        "name": "verb_conjugation.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/verb_conjugation.pdf",
+        "type": "file",
+        "size": 843424
+      }
+    ],
+    "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms": [
+      {
+        "name": "ArabicNounsInflectionfill-inSaveForm-1b.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/ArabicNounsInflectionfill-inSaveForm-1b.pdf",
+        "type": "file",
+        "size": 4300991
+      },
+      {
+        "name": "ArabicVerbConjugationfill-inSaveComboForms-4b.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/ArabicVerbConjugationfill-inSaveComboForms-4b.pdf",
+        "type": "file",
+        "size": 1017873
+      },
+      {
+        "name": "ArabicVerbConjugationfill-inSaveComboForms2.0-5bnew.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/ArabicVerbConjugationfill-inSaveComboForms2.0-5bnew.pdf",
+        "type": "file",
+        "size": 3925903
+      },
+      {
+        "name": "ArabicVerbConjugationfill-inSaveForm-2b.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/ArabicVerbConjugationfill-inSaveForm-2b.pdf",
+        "type": "file",
+        "size": 562957
+      },
+      {
+        "name": "ConjugationOfTheTenMeasuresfill-inSaveForm-3b.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/ConjugationOfTheTenMeasuresfill-inSaveForm-3b.pdf",
+        "type": "file",
+        "size": 438756
+      },
+      {
+        "name": "Example-1bFilled-OneWhoHasSubmitted-.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/Example-1bFilled-OneWhoHasSubmitted-.pdf",
+        "type": "file",
+        "size": 4679317
+      },
+      {
+        "name": "Example-2bFilled-HeHelped-.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/Example-2bFilled-HeHelped-.pdf",
+        "type": "file",
+        "size": 1785846
+      },
+      {
+        "name": "Example-3bFilled-HeHelped-.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/Example-3bFilled-HeHelped-.pdf",
+        "type": "file",
+        "size": 1204110
+      },
+      {
+        "name": "Example-4bFilled-HeAskedForgiveness-.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/Example-4bFilled-HeAskedForgiveness-.pdf",
+        "type": "file",
+        "size": 4293329
+      },
+      {
+        "name": "Example-5aFilled-HeBelieved-2.0.pdf",
+        "path": "Arabic/Grammar/Verbs/Short pdf/Arabic Verb And Noun Conjugation filln And Save Forms/Example-5aFilled-HeBelieved-2.0.pdf",
+        "type": "file",
+        "size": 3803777
+      }
+    ],
+    "Arabic/Short pdf": [
+      {
+        "name": "lets play 20.pdf",
+        "path": "Arabic/Short pdf/lets play 20.pdf",
+        "type": "file",
+        "size": 1507374
+      }
+    ],
+    "Dua": [
+      {
+        "name": "Allahumma-Rabba-Hadhih.webp",
+        "path": "Dua/Allahumma-Rabba-Hadhih.webp",
+        "type": "file",
+        "size": 45418
+      },
+      {
+        "name": "Essential_Duas.pdf",
+        "path": "Dua/Essential_Duas.pdf",
+        "type": "file",
+        "size": 11045118
+      },
+      {
+        "name": "quran-manzil-with-urdu-tarjuma.pdf",
+        "path": "Dua/quran-manzil-with-urdu-tarjuma.pdf",
+        "type": "file",
+        "size": 2779350
+      },
+      {
+        "name": "Supplication-Eng-Urdu.pdf",
+        "path": "Dua/Supplication-Eng-Urdu.pdf",
+        "type": "file",
+        "size": 4832057
+      }
+    ],
+    "Hadith/Images": [
+      {
+        "name": "Hadith of Jibril - Islam, Iman, Ihsan.png",
+        "path": "Hadith/Images/Hadith of Jibril - Islam, Iman, Ihsan.png",
+        "type": "file",
+        "size": 773484
+      }
+    ],
+    "Hadith": [
+      {
+        "name": "Images",
+        "path": "Hadith/Images",
+        "type": "folder"
+      },
+      {
+        "name": "Memorization",
+        "path": "Hadith/Memorization",
+        "type": "folder"
+      },
+      {
+        "name": "Short pdf",
+        "path": "Hadith/Short pdf",
+        "type": "folder"
+      }
+    ],
+    "Hadith/Memorization/Screenshots/Behaviour": [
+      {
+        "name": "Good Muslim - One who avoids harming the Muslims with his tongue and hands.png",
+        "path": "Hadith/Memorization/Screenshots/Behaviour/Good Muslim - One who avoids harming the Muslims with his tongue and hands.png",
+        "type": "file",
+        "size": 113408
+      },
+      {
+        "name": "The best among you (Muslims) are those who learn the Qur'an and teach it.png",
+        "path": "Hadith/Memorization/Screenshots/Behaviour/The best among you (Muslims) are those who learn the Qur'an and teach it.png",
+        "type": "file",
+        "size": 152306
+      },
+      {
+        "name": "The younger person should greet the older one, and the walking person should greet the sitting one, and the small number of persons should greet the large number of persons.png",
+        "path": "Hadith/Memorization/Screenshots/Behaviour/The younger person should greet the older one, and the walking person should greet the sitting one, and the small number of persons should greet the large number of persons.png",
+        "type": "file",
+        "size": 114640
+      }
+    ],
+    "Hadith/Memorization/Screenshots": [
+      {
+        "name": "Behaviour",
+        "path": "Hadith/Memorization/Screenshots/Behaviour",
+        "type": "folder"
+      },
+      {
+        "name": "Belief",
+        "path": "Hadith/Memorization/Screenshots/Belief",
+        "type": "folder"
+      }
+    ],
+    "Hadith/Memorization": [
+      {
+        "name": "Screenshots",
+        "path": "Hadith/Memorization/Screenshots",
+        "type": "folder"
+      }
+    ],
+    "Hadith/Memorization/Screenshots/Belief": [
+      {
+        "name": "Islam is based on (the following) five (principles) -  Testify none has the right to be worshipped but ALLAH and Muhammad is His Messenger, Prayer 5 times, Charity 2.5p, Pilgrimage to Mecca, Fasting in Ramadan.png",
+        "path": "Hadith/Memorization/Screenshots/Belief/Islam is based on (the following) five (principles) -  Testify none has the right to be worshipped but ALLAH and Muhammad is His Messenger, Prayer 5 times, Charity 2.5p, Pilgrimage to Mecca, Fasting in Ramadan.png",
+        "type": "file",
+        "size": 184288
+      },
+      {
+        "name": "None of you will have faith till he loves me more than his father, his children and all mankind.png",
+        "path": "Hadith/Memorization/Screenshots/Belief/None of you will have faith till he loves me more than his father, his children and all mankind.png",
+        "type": "file",
+        "size": 127977
+      },
+      {
+        "name": "The (reward of) deeds, depend upon the intentions.png",
+        "path": "Hadith/Memorization/Screenshots/Belief/The (reward of) deeds, depend upon the intentions.png",
+        "type": "file",
+        "size": 200676
+      }
+    ],
+    "Hadith/Short pdf": [
+      {
+        "name": "110_hadith_qudsi.pdf",
+        "path": "Hadith/Short pdf/110_hadith_qudsi.pdf",
+        "type": "file",
+        "size": 4399726
+      },
+      {
+        "name": "30hadithschildren.pdf",
+        "path": "Hadith/Short pdf/30hadithschildren.pdf",
+        "type": "file",
+        "size": 6123788
+      },
+      {
+        "name": "the_divine_hadiths.pdf",
+        "path": "Hadith/Short pdf/the_divine_hadiths.pdf",
+        "type": "file",
+        "size": 4326046
+      }
+    ],
+    "Others/Books/Board books": [
+      {
+        "name": "Ibtadaie Addrusul Arabiah Class 5 CP.pdf",
+        "path": "Others/Books/Board books/Ibtadaie Addrusul Arabiah Class 5 CP.pdf",
+        "type": "file",
+        "size": 22380957
+      },
+      {
+        "name": "Ibtadaie Addurusul Arabiah Class 3.pdf",
+        "path": "Others/Books/Board books/Ibtadaie Addurusul Arabiah Class 3.pdf",
+        "type": "file",
+        "size": 13917014
+      },
+      {
+        "name": "Ibtadaie Addurusul Arabiah Class 4 CP.pdf",
+        "path": "Others/Books/Board books/Ibtadaie Addurusul Arabiah Class 4 CP.pdf",
+        "type": "file",
+        "size": 15011887
+      },
+      {
+        "name": "Kawaidul Lugatil Arabiah 6.pdf",
+        "path": "Others/Books/Board books/Kawaidul Lugatil Arabiah 6.pdf",
+        "type": "file",
+        "size": 15367745
+      },
+      {
+        "name": "Kawaidul Lugatil Arabiah 7.pdf",
+        "path": "Others/Books/Board books/Kawaidul Lugatil Arabiah 7.pdf",
+        "type": "file",
+        "size": 18535958
+      },
+      {
+        "name": "Qawaid 8.pdf",
+        "path": "Others/Books/Board books/Qawaid 8.pdf",
+        "type": "file",
+        "size": 14907324
+      },
+      {
+        "name": "Qawaid 9-10.pdf",
+        "path": "Others/Books/Board books/Qawaid 9-10.pdf",
+        "type": "file",
+        "size": 11566008
+      },
+      {
+        "name": "ইসলাম শিক্ষা Class 6.pdf",
+        "path": "Others/Books/Board books/ইসলাম শিক্ষা Class 6.pdf",
+        "type": "file",
+        "size": 18838761
+      },
+      {
+        "name": "ইসলাম শিক্ষা Class 7.pdf",
+        "path": "Others/Books/Board books/ইসলাম শিক্ষা Class 7.pdf",
+        "type": "file",
+        "size": 18969852
+      },
+      {
+        "name": "ইসলাম শিক্ষা Class 8.pdf",
+        "path": "Others/Books/Board books/ইসলাম শিক্ষা Class 8.pdf",
+        "type": "file",
+        "size": 20681334
+      },
+      {
+        "name": "ইসলাম শিক্ষা Class 9-10.pdf",
+        "path": "Others/Books/Board books/ইসলাম শিক্ষা Class 9-10.pdf",
+        "type": "file",
+        "size": 22168486
+      }
+    ],
+    "Others/Books": [
+      {
+        "name": "Board books",
+        "path": "Others/Books/Board books",
+        "type": "folder"
+      },
+      {
+        "name": "Ilm",
+        "path": "Others/Books/Ilm",
+        "type": "folder"
+      },
+      {
+        "name": "fiqh_alsunnah_hajj_and_umrah.pdf",
+        "path": "Others/Books/fiqh_alsunnah_hajj_and_umrah.pdf",
+        "type": "file",
+        "size": 5818419
+      },
+      {
+        "name": "hajj_3d.pdf",
+        "path": "Others/Books/hajj_3d.pdf",
+        "type": "file",
+        "size": 7620922
+      },
+      {
+        "name": "Hisnul Muslim Text version pass.pdf",
+        "path": "Others/Books/Hisnul Muslim Text version pass.pdf",
+        "type": "file",
+        "size": 3179734
+      },
+      {
+        "name": "Mukto_Bateser_Khoje.pdf",
+        "path": "Others/Books/Mukto_Bateser_Khoje.pdf",
+        "type": "file",
+        "size": 2997653
+      },
+      {
+        "name": "PART-4-Al-Qasam-And-Its-Jawaab.pdf",
+        "path": "Others/Books/PART-4-Al-Qasam-And-Its-Jawaab.pdf",
+        "type": "file",
+        "size": 1736634
+      },
+      {
+        "name": "Quran Salat Onudhabon [boimate.com].pdf",
+        "path": "Others/Books/Quran Salat Onudhabon [boimate.com].pdf",
+        "type": "file",
+        "size": 1942577
+      },
+      {
+        "name": "Quran Salat Onudhabon.pdf",
+        "path": "Others/Books/Quran Salat Onudhabon.pdf",
+        "type": "file",
+        "size": 1942577
+      },
+      {
+        "name": "six_fundamentals_or_qualities.pdf",
+        "path": "Others/Books/six_fundamentals_or_qualities.pdf",
+        "type": "file",
+        "size": 1403496
+      },
+      {
+        "name": "Suurat-al-Nuur-With-Lexical-Grammatical-Notes.pdf",
+        "path": "Others/Books/Suurat-al-Nuur-With-Lexical-Grammatical-Notes.pdf",
+        "type": "file",
+        "size": 29324978
+      },
+      {
+        "name": "umrah.pdf",
+        "path": "Others/Books/umrah.pdf",
+        "type": "file",
+        "size": 1406280
+      },
+      {
+        "name": "virtues_of_hajj.pdf",
+        "path": "Others/Books/virtues_of_hajj.pdf",
+        "type": "file",
+        "size": 755924
+      },
+      {
+        "name": "আকাশের_ওপারে_আকাশ_লস্ট_মডেস্টি_.pdf",
+        "path": "Others/Books/আকাশের_ওপারে_আকাশ_লস্ট_মডেস্টি_.pdf",
+        "type": "file",
+        "size": 2684999
+      },
+      {
+        "name": "আল কুরানের বিষয় অভিধান___আসাদ বিন হাফিয.pdf",
+        "path": "Others/Books/আল কুরানের বিষয় অভিধান___আসাদ বিন হাফিয.pdf",
+        "type": "file",
+        "size": 9975827
+      },
+      {
+        "name": "আল_ওয়ালা_ওয়াল_বারা_শাঈখ_আবু_হাফস_আশ_শামী_,_আনাস_মাহদী_নাশওয়ান_.pdf",
+        "path": "Others/Books/আল_ওয়ালা_ওয়াল_বারা_শাঈখ_আবু_হাফস_আশ_শামী_,_আনাস_মাহদী_নাশওয়ান_.pdf",
+        "type": "file",
+        "size": 6472201
+      },
+      {
+        "name": "ইসলাম রাস্ট্র ও পরিচালনার মূলনীতি.pdf",
+        "path": "Others/Books/ইসলাম রাস্ট্র ও পরিচালনার মূলনীতি.pdf",
+        "type": "file",
+        "size": 4248364
+      },
+      {
+        "name": "ইসলামে দাস-দাসী ব্যবস্থা ডা. শামসুল আরেফীন.pdf",
+        "path": "Others/Books/ইসলামে দাস-দাসী ব্যবস্থা ডা. শামসুল আরেফীন.pdf",
+        "type": "file",
+        "size": 57832165
+      },
+      {
+        "name": "উম্মাহর ঐক্য পথ ও পন্থা – মাওলানা মুহাম্মদ আব্দুল মালেক.pdf",
+        "path": "Others/Books/উম্মাহর ঐক্য পথ ও পন্থা – মাওলানা মুহাম্মদ আব্দুল মালেক.pdf",
+        "type": "file",
+        "size": 6891290
+      },
+      {
+        "name": "এক নজরে হজ.pdf",
+        "path": "Others/Books/এক নজরে হজ.pdf",
+        "type": "file",
+        "size": 3584180
+      },
+      {
+        "name": "এখন_যৌবন_যার_মাওলানা_যুলফিকার_আহমদ_নকশবন্দী_হাফি_.pdf",
+        "path": "Others/Books/এখন_যৌবন_যার_মাওলানা_যুলফিকার_আহমদ_নকশবন্দী_হাফি_.pdf",
+        "type": "file",
+        "size": 22215098
+      },
+      {
+        "name": "এহইয়াউ উলুমিদ্দীন ১ম খণ্ড – ইমাম গাযযালী.pdf",
+        "path": "Others/Books/এহইয়াউ উলুমিদ্দীন ১ম খণ্ড – ইমাম গাযযালী.pdf",
+        "type": "file",
+        "size": 15572944
+      },
+      {
+        "name": "এহইয়াউ উলুমিদ্দীন ২য় খণ্ড.pdf",
+        "path": "Others/Books/এহইয়াউ উলুমিদ্দীন ২য় খণ্ড.pdf",
+        "type": "file",
+        "size": 25601948
+      },
+      {
+        "name": "কন্যাসন্তান_প্রতিপালনে_৭০০_টিপস_ড_সুলাইমান_আস_সুকাইর.pdf",
+        "path": "Others/Books/কন্যাসন্তান_প্রতিপালনে_৭০০_টিপস_ড_সুলাইমান_আস_সুকাইর.pdf",
+        "type": "file",
+        "size": 11399293
+      },
+      {
+        "name": "কালেমা তাইয়েবাঃ একটি জীবন আদর্শের দাওয়াত – মুহাম্মদ আজিজুর রহমান খান.pdf",
+        "path": "Others/Books/কালেমা তাইয়েবাঃ একটি জীবন আদর্শের দাওয়াত – মুহাম্মদ আজিজুর রহমান খান.pdf",
+        "type": "file",
+        "size": 1045519
+      },
+      {
+        "name": "কুরআন_পড়ুন_ড_আবদুল_আযীয_আবদুর_রহীম.pdf",
+        "path": "Others/Books/কুরআন_পড়ুন_ড_আবদুল_আযীয_আবদুর_রহীম.pdf",
+        "type": "file",
+        "size": 19699334
+      },
+      {
+        "name": "কুরআনের_শব্দাবলি_লেভেল_১.pdf",
+        "path": "Others/Books/কুরআনের_শব্দাবলি_লেভেল_১.pdf",
+        "type": "file",
+        "size": 4239114
+      },
+      {
+        "name": "কুরআনের_শব্দাবলি_লেভেল_২.pdf",
+        "path": "Others/Books/কুরআনের_শব্দাবলি_লেভেল_২.pdf",
+        "type": "file",
+        "size": 6992474
+      },
+      {
+        "name": "গোনাহ ও তাওবা অভিশাপ ও রহমত - মুফতি মুহাম্মাদ তাকী উসমানী.pdf",
+        "path": "Others/Books/গোনাহ ও তাওবা অভিশাপ ও রহমত - মুফতি মুহাম্মাদ তাকী উসমানী.pdf",
+        "type": "file",
+        "size": 3828760
+      },
+      {
+        "name": "চিন্তাপরাধ_আসিফ_আদনান_.pdf",
+        "path": "Others/Books/চিন্তাপরাধ_আসিফ_আদনান_.pdf",
+        "type": "file",
+        "size": 4610025
+      },
+      {
+        "name": "প্রেমময় দাম্পত্য জীবন (নিয়ম, কৌশল, পরামর্শ) -উসতাজ হাসসান শামসি পাশা.pdf",
+        "path": "Others/Books/প্রেমময় দাম্পত্য জীবন (নিয়ম, কৌশল, পরামর্শ) -উসতাজ হাসসান শামসি পাশা.pdf",
+        "type": "file",
+        "size": 63654283
+      },
+      {
+        "name": "মাওলানা_সাদের_ত্রুটি_বিচ্যুতি_সিরিজ_১০০২_পৃষ্ঠা.pdf",
+        "path": "Others/Books/মাওলানা_সাদের_ত্রুটি_বিচ্যুতি_সিরিজ_১০০২_পৃষ্ঠা.pdf",
+        "type": "file",
+        "size": 21738259
+      },
+      {
+        "name": "মুসলিম_অমুসলিম_সম্পর্ক_সীমারেখা_ও_বিধিবিধান_মুফতী_mq_1.pdf",
+        "path": "Others/Books/মুসলিম_অমুসলিম_সম্পর্ক_সীমারেখা_ও_বিধিবিধান_মুফতী_mq_1.pdf",
+        "type": "file",
+        "size": 54060560
+      },
+      {
+        "name": "মোহাম্মাদী কায়দা.pdf",
+        "path": "Others/Books/মোহাম্মাদী কায়দা.pdf",
+        "type": "file",
+        "size": 8477273
+      },
+      {
+        "name": "রাসূলে_আরাবি_ﷺ_বিশুদ্ধ_বর্ণনার_ভিত্তিতে_প্রিয়_নবির_সংক্ষিপ্ত_জীবনী.pdf",
+        "path": "Others/Books/রাসূলে_আরাবি_ﷺ_বিশুদ্ধ_বর্ণনার_ভিত্তিতে_প্রিয়_নবির_সংক্ষিপ্ত_জীবনী.pdf",
+        "type": "file",
+        "size": 54181567
+      },
+      {
+        "name": "রুকইয়াহ_আব্দুল্লাহ_আল_মাহমুদ_২০১৮_.pdf",
+        "path": "Others/Books/রুকইয়াহ_আব্দুল্লাহ_আল_মাহমুদ_২০১৮_.pdf",
+        "type": "file",
+        "size": 11943581
+      },
+      {
+        "name": "সুইটহার্ট_কুরআন_শাইখ_আতিক_উল্লাহ.pdf",
+        "path": "Others/Books/সুইটহার্ট_কুরআন_শাইখ_আতিক_উল্লাহ.pdf",
+        "type": "file",
+        "size": 33161510
+      },
+      {
+        "name": "সুরা ইউসুফের পরশে -শাইখ আলী জাবির আল ফাইফী.pdf",
+        "path": "Others/Books/সুরা ইউসুফের পরশে -শাইখ আলী জাবির আল ফাইফী.pdf",
+        "type": "file",
+        "size": 24458489
+      },
+      {
+        "name": "সূরা_কাহাফ_এবং_বর্তমান_বিশ্ব_ইমরান_নযর_হোসেন.pdf",
+        "path": "Others/Books/সূরা_কাহাফ_এবং_বর্তমান_বিশ্ব_ইমরান_নযর_হোসেন.pdf",
+        "type": "file",
+        "size": 902280
+      },
+      {
+        "name": "হজ্জ ও উমরাহ সফরে সহজ গাইড [boimate.com].pdf",
+        "path": "Others/Books/হজ্জ ও উমরাহ সফরে সহজ গাইড [boimate.com].pdf",
+        "type": "file",
+        "size": 11193051
+      },
+      {
+        "name": "হজ্জ ও উমরাহ সফরে সহজ গাইড.pdf",
+        "path": "Others/Books/হজ্জ ও উমরাহ সফরে সহজ গাইড.pdf",
+        "type": "file",
+        "size": 11193051
+      },
+      {
+        "name": "হাদিসের প্রামাণ্যতা.pdf",
+        "path": "Others/Books/হাদিসের প্রামাণ্যতা.pdf",
+        "type": "file",
+        "size": 62207448
+      },
+      {
+        "name": "হায়দারাবাদ_ট্রাজেডি_ও_আজকের_বাংলাদেশ_আরিফুল_হক.pdf",
+        "path": "Others/Books/হায়দারাবাদ_ট্রাজেডি_ও_আজকের_বাংলাদেশ_আরিফুল_হক.pdf",
+        "type": "file",
+        "size": 1956775
+      },
+      {
+        "name": "হিফয_করতে_হলে_শাইখ_আব্দুল_কাইয়্যূম_আস_সুহাইবানী.pdf",
+        "path": "Others/Books/হিফয_করতে_হলে_শাইখ_আব্দুল_কাইয়্যূম_আস_সুহাইবানী.pdf",
+        "type": "file",
+        "size": 9864348
+      }
+    ],
+    "Others": [
+      {
+        "name": "Books",
+        "path": "Others/Books",
+        "type": "folder"
+      },
+      {
+        "name": "Images",
+        "path": "Others/Images",
+        "type": "folder"
+      },
+      {
+        "name": "number arabic.webp",
+        "path": "Others/number arabic.webp",
+        "type": "file",
+        "size": 134926
+      },
+      {
+        "name": "দাওয়াতের ফরজিয়াত.docx",
+        "path": "Others/দাওয়াতের ফরজিয়াত.docx",
+        "type": "file",
+        "size": 16637
+      }
+    ],
+    "Others/Books/Ilm": [
+      {
+        "name": "Al Hadi ila Srf.pdf",
+        "path": "Others/Books/Ilm/Al Hadi ila Srf.pdf",
+        "type": "file",
+        "size": 4646054
+      },
+      {
+        "name": "Esho Arbi Shikhi.pdf",
+        "path": "Others/Books/Ilm/Esho Arbi Shikhi.pdf",
+        "type": "file",
+        "size": 9953869
+      },
+      {
+        "name": "Esho Nahu Shikhi.pdf",
+        "path": "Others/Books/Ilm/Esho Nahu Shikhi.pdf",
+        "type": "file",
+        "size": 5755354
+      },
+      {
+        "name": "Esho Quran Shikhi 01.pdf",
+        "path": "Others/Books/Ilm/Esho Quran Shikhi 01.pdf",
+        "type": "file",
+        "size": 7682448
+      },
+      {
+        "name": "Esho Quran Shikhi 02.pdf",
+        "path": "Others/Books/Ilm/Esho Quran Shikhi 02.pdf",
+        "type": "file",
+        "size": 13646113
+      },
+      {
+        "name": "Esho Srf Shikhi.pdf",
+        "path": "Others/Books/Ilm/Esho Srf Shikhi.pdf",
+        "type": "file",
+        "size": 3280604
+      }
+    ],
+    "Others/Images": [
+      {
+        "name": "Friday Sunnah List.png",
+        "path": "Others/Images/Friday Sunnah List.png",
+        "type": "file",
+        "size": 257723
+      },
+      {
+        "name": "Sunnat 12 Raka'ah - জামে' আত তিরমিজী ৪১৪ নম্বর হাদিসের বিস্তারিত.jpg",
+        "path": "Others/Images/Sunnat 12 Raka'ah - জামে' আত তিরমিজী ৪১৪ নম্বর হাদিসের বিস্তারিত.jpg",
+        "type": "file",
+        "size": 114889
+      },
+      {
+        "name": "রাতের সন্যাসী এবং দিনের অশ্বারোহী - সাহাবাদের বৈশিষ্ট্য.png",
+        "path": "Others/Images/রাতের সন্যাসী এবং দিনের অশ্বারোহী - সাহাবাদের বৈশিষ্ট্য.png",
+        "type": "file",
+        "size": 242344
+      }
+    ],
+    "Quran/Books": [
+      {
+        "name": "At a glance - summary of the 30 Juz of the blessed Quran.pdf",
+        "path": "Quran/Books/At a glance - summary of the 30 Juz of the blessed Quran.pdf",
+        "type": "file",
+        "size": 1439899
+      },
+      {
+        "name": "JUZ30-AMA.pdf",
+        "path": "Quran/Books/JUZ30-AMA.pdf",
+        "type": "file",
+        "size": 3406907
+      },
+      {
+        "name": "quran-english-translation-mufti-taqi-usmani.pdf",
+        "path": "Quran/Books/quran-english-translation-mufti-taqi-usmani.pdf",
+        "type": "file",
+        "size": 7650042
+      },
+      {
+        "name": "The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf",
+        "path": "Quran/Books/The_Clear_Quran_A_Thematic_English_Translation_Allah_edition_--_Dr._Mustafa_Khattab_2017_BC2C0DDB.pdf",
+        "type": "file",
+        "size": 6307167
+      }
+    ],
+    "Quran": [
+      {
+        "name": "Books",
+        "path": "Quran/Books",
+        "type": "folder"
+      },
+      {
+        "name": "Memorization",
+        "path": "Quran/Memorization",
+        "type": "folder"
+      },
+      {
+        "name": "Short pdf",
+        "path": "Quran/Short pdf",
+        "type": "folder"
+      },
+      {
+        "name": "Tajweed",
+        "path": "Quran/Tajweed",
+        "type": "folder"
+      }
+    ],
+    "Quran/Memorization/Dua": [
+      {
+        "name": "O Allah! Make the Quran the spring of our hearts.png",
+        "path": "Quran/Memorization/Dua/O Allah! Make the Quran the spring of our hearts.png",
+        "type": "file",
+        "size": 156604
+      }
+    ],
+    "Quran/Memorization": [
+      {
+        "name": "Dua",
+        "path": "Quran/Memorization/Dua",
+        "type": "folder"
+      },
+      {
+        "name": "Images",
+        "path": "Quran/Memorization/Images",
+        "type": "folder"
+      },
+      {
+        "name": "Memorized Verses.txt",
+        "path": "Quran/Memorization/Memorized Verses.txt",
+        "type": "file",
+        "size": 112
+      }
+    ],
+    "Quran/Memorization/Images": [
+      {
+        "name": "Ayahs.jpg",
+        "path": "Quran/Memorization/Images/Ayahs.jpg",
+        "type": "file",
+        "size": 241011
+      },
+      {
+        "name": "Surah Nuh 10-12.jpg",
+        "path": "Quran/Memorization/Images/Surah Nuh 10-12.jpg",
+        "type": "file",
+        "size": 70177
+      },
+      {
+        "name": "Surah Nur 24-35.JPG",
+        "path": "Quran/Memorization/Images/Surah Nur 24-35.JPG",
+        "type": "file",
+        "size": 91707
+      }
+    ],
+    "Quran/Short pdf": [
+      {
+        "name": "1-29 Juz some surahs",
+        "path": "Quran/Short pdf/1-29 Juz some surahs",
+        "type": "folder"
+      },
+      {
+        "name": "30th Juzz 78-114",
+        "path": "Quran/Short pdf/30th Juzz 78-114",
+        "type": "folder"
+      },
+      {
+        "name": "01-Quraan-e-Kareem-Arabic.pdf",
+        "path": "Quran/Short pdf/01-Quraan-e-Kareem-Arabic.pdf",
+        "type": "file",
+        "size": 4376549
+      },
+      {
+        "name": "04-PART-1-Quran-Words.pdf",
+        "path": "Quran/Short pdf/04-PART-1-Quran-Words.pdf",
+        "type": "file",
+        "size": 288470
+      },
+      {
+        "name": "1.1.B.Q1.Al-Baqarah Q1.pdf",
+        "path": "Quran/Short pdf/1.1.B.Q1.Al-Baqarah Q1.pdf",
+        "type": "file",
+        "size": 1690367
+      },
+      {
+        "name": "80-percent-of-quranic-words-classified-word-lists-for-easy-memorization.pdf",
+        "path": "Quran/Short pdf/80-percent-of-quranic-words-classified-word-lists-for-easy-memorization.pdf",
+        "type": "file",
+        "size": 1377790
+      },
+      {
+        "name": "Daily-Recitations.pdf",
+        "path": "Quran/Short pdf/Daily-Recitations.pdf",
+        "type": "file",
+        "size": 206059
+      },
+      {
+        "name": "Mushaf extras Spaces - Arabic101.pdf",
+        "path": "Quran/Short pdf/Mushaf extras Spaces - Arabic101.pdf",
+        "type": "file",
+        "size": 6299197
+      },
+      {
+        "name": "SuratMulkOnePageHiRes.pdf",
+        "path": "Quran/Short pdf/SuratMulkOnePageHiRes.pdf",
+        "type": "file",
+        "size": 1409554
+      }
+    ],
+    "Quran/Short pdf/1-29 Juz some surahs": [
+      {
+        "name": "1 সূরা ফাতিহা.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/1 সূরা ফাতিহা.pdf",
+        "type": "file",
+        "size": 1623127
+      },
+      {
+        "name": "17 বনী-ইসরাঈল P 436-455.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/17 বনী-ইসরাঈল P 436-455.pdf",
+        "type": "file",
+        "size": 5133935
+      },
+      {
+        "name": "18 কাহফ P 456-476.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/18 কাহফ P 456-476.pdf",
+        "type": "file",
+        "size": 5166502
+      },
+      {
+        "name": "19 মারইয়াম P 477-490.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/19 মারইয়াম P 477-490.pdf",
+        "type": "file",
+        "size": 3279073
+      },
+      {
+        "name": "2 সূরা বাকারা 4-74.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/2 সূরা বাকারা 4-74.pdf",
+        "type": "file",
+        "size": 19695832
+      },
+      {
+        "name": "23 সূরা মু’মিনূন 544-558.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/23 সূরা মু’মিনূন 544-558.pdf",
+        "type": "file",
+        "size": 3455523
+      },
+      {
+        "name": "26 সূরা শু’আরা 586-607.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/26 সূরা শু’আরা 586-607.pdf",
+        "type": "file",
+        "size": 4599780
+      },
+      {
+        "name": "27 সূরা নামল 608-623.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/27 সূরা নামল 608-623.pdf",
+        "type": "file",
+        "size": 3789492
+      },
+      {
+        "name": "28 সূরা কাসাস 623-640.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/28 সূরা কাসাস 623-640.pdf",
+        "type": "file",
+        "size": 4482211
+      },
+      {
+        "name": "29 সূরা আনকাবূত 640-653.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/29 সূরা আনকাবূত 640-653.pdf",
+        "type": "file",
+        "size": 3121654
+      },
+      {
+        "name": "3 সূরা আলে ‘ইমরান 75-114.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/3 সূরা আলে ‘ইমরান 75-114.pdf",
+        "type": "file",
+        "size": 10916413
+      },
+      {
+        "name": "31 সূরা লুকমান 664-669.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/31 সূরা লুকমান 664-669.pdf",
+        "type": "file",
+        "size": 1506571
+      },
+      {
+        "name": "36 ইয়া-সীন 711-721.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/36 ইয়া-সীন 711-721.pdf",
+        "type": "file",
+        "size": 2401218
+      },
+      {
+        "name": "39 সূরা যুমার 750-763.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/39 সূরা যুমার 750-763.pdf",
+        "type": "file",
+        "size": 3575214
+      },
+      {
+        "name": "4 সূরা নিসা 115-156.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/4 সূরা নিসা 115-156.pdf",
+        "type": "file",
+        "size": 11303297
+      },
+      {
+        "name": "40 সূরা মু’মিন 764-778.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/40 সূরা মু’মিন 764-778.pdf",
+        "type": "file",
+        "size": 3761289
+      },
+      {
+        "name": "47 সূরা মুহাম্মাদ 833-839.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/47 সূরা মুহাম্মাদ 833-839.pdf",
+        "type": "file",
+        "size": 1759908
+      },
+      {
+        "name": "48 সূরা ফাত্হ 840-846.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/48 সূরা ফাত্হ 840-846.pdf",
+        "type": "file",
+        "size": 1976198
+      },
+      {
+        "name": "49 সূরা হুজুরাত 847-850.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/49 সূরা হুজুরাত 847-850.pdf",
+        "type": "file",
+        "size": 1089546
+      },
+      {
+        "name": "55 সূরা রাহমান.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/55 সূরা রাহমান.pdf",
+        "type": "file",
+        "size": 1489202
+      },
+      {
+        "name": "56 সূরা ওয়াকি’আঃ.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/56 সূরা ওয়াকি’আঃ.pdf",
+        "type": "file",
+        "size": 1493480
+      },
+      {
+        "name": "57 সূরা হাদীদ.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/57 সূরা হাদীদ.pdf",
+        "type": "file",
+        "size": 1790540
+      },
+      {
+        "name": "59 সূরা হাশর.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/59 সূরা হাশর.pdf",
+        "type": "file",
+        "size": 1528836
+      },
+      {
+        "name": "62 সূরা জুমা’আ.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/62 সূরা জুমা’আ.pdf",
+        "type": "file",
+        "size": 605446
+      },
+      {
+        "name": "63 সূরা মুনাফিকূন.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/63 সূরা মুনাফিকূন.pdf",
+        "type": "file",
+        "size": 642903
+      },
+      {
+        "name": "64 সূরা তাগাবুন.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/64 সূরা তাগাবুন.pdf",
+        "type": "file",
+        "size": 875023
+      },
+      {
+        "name": "65 সূরা তালাক.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/65 সূরা তালাক.pdf",
+        "type": "file",
+        "size": 958066
+      },
+      {
+        "name": "66 সূরা তাহরীম.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/66 সূরা তাহরীম.pdf",
+        "type": "file",
+        "size": 831197
+      },
+      {
+        "name": "67 সূরা মুলক.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/67 সূরা মুলক.pdf",
+        "type": "file",
+        "size": 1096293
+      },
+      {
+        "name": "68 সূরা কালাম.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/68 সূরা কালাম.pdf",
+        "type": "file",
+        "size": 1262269
+      },
+      {
+        "name": "69 সূরা হাককা.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/69 সূরা হাককা.pdf",
+        "type": "file",
+        "size": 985399
+      },
+      {
+        "name": "70 সূরা মা’আরিজ.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/70 সূরা মা’আরিজ.pdf",
+        "type": "file",
+        "size": 833739
+      },
+      {
+        "name": "71 সূরা নূহ্.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/71 সূরা নূহ্.pdf",
+        "type": "file",
+        "size": 864555
+      },
+      {
+        "name": "72 সূরা জিন.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/72 সূরা জিন.pdf",
+        "type": "file",
+        "size": 1105409
+      },
+      {
+        "name": "73 সূরা মুযযাম্মিল.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/73 সূরা মুযযাম্মিল.pdf",
+        "type": "file",
+        "size": 908618
+      },
+      {
+        "name": "75 সূরা কিয়ামা.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/75 সূরা কিয়ামা.pdf",
+        "type": "file",
+        "size": 709296
+      },
+      {
+        "name": "76 সূরা দাহর বা ইনসান.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/76 সূরা দাহর বা ইনসান.pdf",
+        "type": "file",
+        "size": 869573
+      },
+      {
+        "name": "9 সূরা তাওবা 280-309.pdf",
+        "path": "Quran/Short pdf/1-29 Juz some surahs/9 সূরা তাওবা 280-309.pdf",
+        "type": "file",
+        "size": 8143648
+      }
+    ],
+    "Quran/Short pdf/30th Juzz 78-114": [
+      {
+        "name": "100 সূরা _আদিয়াত.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/100 সূরা _আদিয়াত.pdf",
+        "type": "file",
+        "size": 181607
+      },
+      {
+        "name": "101 সূরা কারি’আ.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/101 সূরা কারি’আ.pdf",
+        "type": "file",
+        "size": 190456
+      },
+      {
+        "name": "102 সূরা তাকাছুর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/102 সূরা তাকাছুর.pdf",
+        "type": "file",
+        "size": 182655
+      },
+      {
+        "name": "103 সূরা আছর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/103 সূরা আছর.pdf",
+        "type": "file",
+        "size": 163314
+      },
+      {
+        "name": "104 সূরা হুমাযা.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/104 সূরা হুমাযা.pdf",
+        "type": "file",
+        "size": 299936
+      },
+      {
+        "name": "105 সূরা ফীল.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/105 সূরা ফীল.pdf",
+        "type": "file",
+        "size": 185516
+      },
+      {
+        "name": "106 সূরা কুরায়শ.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/106 সূরা কুরায়শ.pdf",
+        "type": "file",
+        "size": 183052
+      },
+      {
+        "name": "107 সূরা মা’ঊন.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/107 সূরা মা’ঊন.pdf",
+        "type": "file",
+        "size": 317416
+      },
+      {
+        "name": "108 সূরা কাওছার.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/108 সূরা কাওছার.pdf",
+        "type": "file",
+        "size": 190741
+      },
+      {
+        "name": "109 সূরা কাফিরুন.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/109 সূরা কাফিরুন.pdf",
+        "type": "file",
+        "size": 185155
+      },
+      {
+        "name": "110 সূরা নাসর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/110 সূরা নাসর.pdf",
+        "type": "file",
+        "size": 331612
+      },
+      {
+        "name": "111 সূরা লাহাব.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/111 সূরা লাহাব.pdf",
+        "type": "file",
+        "size": 180926
+      },
+      {
+        "name": "112 সূরা ইখলাস্.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/112 সূরা ইখলাস্.pdf",
+        "type": "file",
+        "size": 161579
+      },
+      {
+        "name": "113 সূরা ফালাক.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/113 সূরা ফালাক.pdf",
+        "type": "file",
+        "size": 207417
+      },
+      {
+        "name": "114 সূরা নাস.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/114 সূরা নাস.pdf",
+        "type": "file",
+        "size": 383526
+      },
+      {
+        "name": "78 সূরা নাবা’.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/78 সূরা নাবা’.pdf",
+        "type": "file",
+        "size": 830083
+      },
+      {
+        "name": "79 সূরা নাযি’আত.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/79 সূরা নাযি’আত.pdf",
+        "type": "file",
+        "size": 947488
+      },
+      {
+        "name": "80 সূরা আবাসা.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/80 সূরা আবাসা.pdf",
+        "type": "file",
+        "size": 695437
+      },
+      {
+        "name": "81 সূরা তাকভীর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/81 সূরা তাকভীর.pdf",
+        "type": "file",
+        "size": 491434
+      },
+      {
+        "name": "82 সূরা ইনফিতার.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/82 সূরা ইনফিতার.pdf",
+        "type": "file",
+        "size": 349795
+      },
+      {
+        "name": "83  সূরা মুতাফফিফীন.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/83  সূরা মুতাফফিফীন.pdf",
+        "type": "file",
+        "size": 762898
+      },
+      {
+        "name": "84 ইনশিকাক্.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/84 ইনশিকাক্.pdf",
+        "type": "file",
+        "size": 513355
+      },
+      {
+        "name": "85 সূরা বুরুজ.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/85 সূরা বুরুজ.pdf",
+        "type": "file",
+        "size": 495288
+      },
+      {
+        "name": "86 সূরা তারিক.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/86 সূরা তারিক.pdf",
+        "type": "file",
+        "size": 316976
+      },
+      {
+        "name": "87 সূরা আ’লা.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/87 সূরা আ’লা.pdf",
+        "type": "file",
+        "size": 357650
+      },
+      {
+        "name": "88 সূরা গাশিয়া.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/88 সূরা গাশিয়া.pdf",
+        "type": "file",
+        "size": 651909
+      },
+      {
+        "name": "89 সূরা ফাজর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/89 সূরা ফাজর.pdf",
+        "type": "file",
+        "size": 844305
+      },
+      {
+        "name": "90 সূরা বালাদ.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/90 সূরা বালাদ.pdf",
+        "type": "file",
+        "size": 475409
+      },
+      {
+        "name": "91 সূরা শাম্স.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/91 সূরা শাম্স.pdf",
+        "type": "file",
+        "size": 364327
+      },
+      {
+        "name": "92 সূরা লায়ল.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/92 সূরা লায়ল.pdf",
+        "type": "file",
+        "size": 323104
+      },
+      {
+        "name": "93 সূরা দুহা.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/93 সূরা দুহা.pdf",
+        "type": "file",
+        "size": 350592
+      },
+      {
+        "name": "94 সূরা ইনশিরাহ্.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/94 সূরা ইনশিরাহ্.pdf",
+        "type": "file",
+        "size": 183917
+      },
+      {
+        "name": "95 সূরা তীন.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/95 সূরা তীন.pdf",
+        "type": "file",
+        "size": 205013
+      },
+      {
+        "name": "96 সূরা ’আলাক.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/96 সূরা ’আলাক.pdf",
+        "type": "file",
+        "size": 335237
+      },
+      {
+        "name": "97 সূরা কাদর.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/97 সূরা কাদর.pdf",
+        "type": "file",
+        "size": 276501
+      },
+      {
+        "name": "98 সূরা বায়্যিনা.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/98 সূরা বায়্যিনা.pdf",
+        "type": "file",
+        "size": 372152
+      },
+      {
+        "name": "99 সূরা যিলযাল.pdf",
+        "path": "Quran/Short pdf/30th Juzz 78-114/99 সূরা যিলযাল.pdf",
+        "type": "file",
+        "size": 175213
+      }
+    ],
+    "Quran/Tajweed": [
+      {
+        "name": "02-Tajweed-Rules-in-details.pdf",
+        "path": "Quran/Tajweed/02-Tajweed-Rules-in-details.pdf",
+        "type": "file",
+        "size": 1599454
+      },
+      {
+        "name": "05-Tajweed-Made-Easy-English.pdf",
+        "path": "Quran/Tajweed/05-Tajweed-Made-Easy-English.pdf",
+        "type": "file",
+        "size": 1447629
+      },
+      {
+        "name": "A4-Start-stop-poster-2-seqkxi.jpg",
+        "path": "Quran/Tajweed/A4-Start-stop-poster-2-seqkxi.jpg",
+        "type": "file",
+        "size": 188331
+      },
+      {
+        "name": "Advanced-Tajweed-Book.pdf",
+        "path": "Quran/Tajweed/Advanced-Tajweed-Book.pdf",
+        "type": "file",
+        "size": 56868955
+      },
+      {
+        "name": "Al Qaaidah Al Quraaniyyah - intro to tajweed.pdf",
+        "path": "Quran/Tajweed/Al Qaaidah Al Quraaniyyah - intro to tajweed.pdf",
+        "type": "file",
+        "size": 42314106
+      },
+      {
+        "name": "Help Yourself in Reading Holy Quran Arabic - English.pdf",
+        "path": "Quran/Tajweed/Help Yourself in Reading Holy Quran Arabic - English.pdf",
+        "type": "file",
+        "size": 7848026
+      },
+      {
+        "name": "makhaarij-al-huroof-table.pdf",
+        "path": "Quran/Tajweed/makhaarij-al-huroof-table.pdf",
+        "type": "file",
+        "size": 255730
+      },
+      {
+        "name": "students-guide-to-tajweed-rules-.noha-assersy.pdf",
+        "path": "Quran/Tajweed/students-guide-to-tajweed-rules-.noha-assersy.pdf",
+        "type": "file",
+        "size": 6576371
+      },
+      {
+        "name": "tajweed-_2-page-guide-_learning-workhsheet2.pdf",
+        "path": "Quran/Tajweed/tajweed-_2-page-guide-_learning-workhsheet2.pdf",
+        "type": "file",
+        "size": 192552
+      },
+      {
+        "name": "Tajweed_Text_Book.pdf",
+        "path": "Quran/Tajweed/Tajweed_Text_Book.pdf",
+        "type": "file",
+        "size": 5954411
+      }
+    ],
+    "Sirat": [
+      {
+        "name": "Sahaba",
+        "path": "Sirat/Sahaba",
+        "type": "folder"
+      },
+      {
+        "name": "10-Seerat-of-the-Prophet-SAW.pdf",
+        "path": "Sirat/10-Seerat-of-the-Prophet-SAW.pdf",
+        "type": "file",
+        "size": 784061
+      },
+      {
+        "name": "300 Authenticated Miracles of Muhammad pbuh 2.pdf",
+        "path": "Sirat/300 Authenticated Miracles of Muhammad pbuh 2.pdf",
+        "type": "file",
+        "size": 4716491
+      },
+      {
+        "name": "Prophetic Routine Hori A4.pdf",
+        "path": "Sirat/Prophetic Routine Hori A4.pdf",
+        "type": "file",
+        "size": 3345383
+      },
+      {
+        "name": "উসওয়ায়ে_রসূলে_আকরাম_ﷺ.pdf",
+        "path": "Sirat/উসওয়ায়ে_রসূলে_আকরাম_ﷺ.pdf",
+        "type": "file",
+        "size": 11536432
+      }
+    ],
+    "Sirat/Sahaba": [
+      {
+        "name": "Men Around The Messenger (PBUH).chm",
+        "path": "Sirat/Sahaba/Men Around The Messenger (PBUH).chm",
+        "type": "file",
+        "size": 913661
+      }
+    ]
+  }
+}
